@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
+
+header{
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.list-inline{
+    font-family: "Indie+Flower";
+    font-weight: 200;
+    font-size: 30px;
+    
+    
+}
+
+
+.row{
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 100px;
+    min-width: 100px;
+    
+    
+}
+
+.mobile{
+    
+    text-align: center
+}
+    
+@media (max-width: 500px) {
+    .mobile {
+        background-color: grey;
+        border-color: blue;
+    }
+}
