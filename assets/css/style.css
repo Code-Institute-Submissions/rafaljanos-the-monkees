@@ -4,7 +4,7 @@ header{
     margin: 0;
     padding-left: 20px;
     padding-top: 20px;
-    
+    color: #fff;
 }
 
 
@@ -16,17 +16,51 @@ header{
     
 }
 
+.logo{
+    
+    padding-top: 200px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
-.row{
+.breake{
+     min-height: 100px;
+}
+
+.about{
+   
+   color: #fff;
+   border-left:  1px solid;
+   border-left-color: #B8B8B8;
+   
+}
+
+.empty-space{
+    min-height: 500px;
+}
+
+.nav{
     margin-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     min-height: 100px;
     min-width: 100px;
+
+}
+
+.background {
+    background-color: black;
+    background-image: url(../images/Monkees.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: red;
+    width: 100%;
+    height: 1000px;
+    
     
     
 }
-
 .mobile{
     
     text-align: center
@@ -35,6 +69,25 @@ header{
 @media (max-width: 500px) {
     .mobile {
         background-color: grey;
-        border-color: blue;
+        
+}
+
+
+/*----------------Footer------------------*/
+
+footer {
+    background-color: blue;
+    
+    color: #fff;
+    min-height: 150px;
+    margin: 0;
+    
+    
+}
+
+@media (min-width: 500px) {
+    .box {
+        background-color: grey;
+    
     }
 }
