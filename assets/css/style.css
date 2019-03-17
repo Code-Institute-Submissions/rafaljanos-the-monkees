@@ -5,6 +5,7 @@ header{
     padding-left: 20px;
     padding-top: 20px;
     color: #fff;
+    background-color: #E81B23;
 }
 
 /*--------------------------------Text----------------------------*/
@@ -22,24 +23,28 @@ header{
 
 }
 
-.logo{
-    
-    padding-top: 200px;
-    background-image: url(../images/logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 .breake{
      min-height: 100px;
 }
 
 .about{
-   
    color: #fff;
    border-left:  1px solid;
    border-left-color: #B8B8B8;
    
+}
+
+.shows{
+    padding-top: 100px;
+}
+
+.shows1{
+    text-align: right;
+}
+
+.shows2{
+    border-left: 3px solid;
+    border-left-color: black;
 }
 
 .empty-space{
@@ -54,22 +59,35 @@ header{
     padding-right: 30px;
     min-height: 100px;
     min-width: 100px;
+    background-color: #E81B23;
 
 }
 
 /*--------------------------------Images----------------------------*/
 
-.background {
-    background-color: black;
-    background-image: url(../images/Monkees.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-color: red;
-    width: 100%;
-    height: 1000px;
+.background-shows{
+    background-color: #68BBB8;
 }
 
+.background-index {
+    background-color: #FFD95C;
+}
+
+.background-our-tracks {
+    background-color: #D6CC0A;
+}
+
+.background-gallery {
+    background-color: #FF91BB;
+}
+
+.background-book {
+    background-color: #F5855B;
+}
+
+
 .members {
+    padding-top: 100px;
     text-align: center;
     color: white;
     
@@ -77,11 +95,37 @@ header{
 }
 
 
-/*--------------------------------Mobile----------------------------*/
-.mobile{
+/*--------------------------------NAV----------------------------*/
+.nav-gallery{
+    border-radius: 10px 10000px;
+    background-color: #FF91BB;
+    text-align: center;
+    font-family: "Indie+Flower";
+    font-size: 40px;
     
+    
+}
+
+.nav-tracks{
+    
+    border-radius: 0px 0px 50px 50px;
+    background-color: #D6CC0A;
     text-align: center
 }
+
+.nav-shows{
+    border-radius: 0px 0px 50px 50px;
+    background-color: #68BBB8;
+    text-align: center
+}
+
+.nav-book{
+    border-radius: 10000px 10px;
+    background-color: #F5855B;
+    text-align: center
+}
+
+
     
 @media (max-width: 500px) {
     .mobile {
