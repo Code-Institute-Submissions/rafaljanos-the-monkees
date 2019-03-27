@@ -25,32 +25,72 @@
         
         </header>
         <section class="coteiner-fluid">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+            <div class="row form-table">
+                <div class="col-12 col-md-4 col-lg-4"></div>
+                <div class="col-12 col-md-4 col-lg-4 form">
                     <form action="https://ptsv2.com/t/9mbjw-1519746391/post" method="post">        
-                        <label for="email">Email</label>
-                        <br>
-                        <input type="email" id="email" placeholder="email" name="email">
-                        <br>
-                         <label for="name">Name</label>
-                         <br>
-                         <input type="name" id="name" placeholder="name" name="name">
-                     </form>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <form action="https://ptsv2.com/t/9mbjw-1519746391/post" method="post">
+                       <table>
+                            <tr>
+                                <td width="60%"><label for="name">Your Name</label></td>
+                                <td width="50%"><input type="name" id="name" placeholder="Name" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="surname">Your Surname</label></td>
+                                <td><input type="surname" id="surname" placeholder="Surname" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="name">Your Telephone</label></td>
+                                <td><input type="number" id="name" placeholder="Number" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Your Gender</label></td>
+                                <td>
+                                    <select>
+                                        <option selected></option>
+                                        <option>Female</option>
+                                        <option>Male</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Your Email Adress</label></td>
+                                <td><input type="email" id="email" placeholder="Email" required></td>
+                            </tr>
+                            <tr>
+                                <div><td>Adress of Venue</td></div>
+                                <td><textarea rows="6" cols="22"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Type of venue</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="type" checked>Authograph</td>
+                                <td><input type="checkbox" name="type" value="dfsd">Photoshot</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="type" value="dfsd">Concert</td>
+                                <td><input type="checkbox" name="type" value="dfsd">Private</td>
+                            </tr>
+                                <td><input type="checkbox" name="type" value="dfsd">Wedding</td>
+                                <td><input type="checkbox" name="type" value="dfsd">Charity</td>
+                            <tr>
+                                <td><div><button>
+                                    <span>SEND</span>
+                                </button></div></td>
+                            </tr>
+                        </table></form>
+                     </div>
+                     <div class="col-12 col-md-4 col-lg-4"></div>
+                
                     
-                    <br>
-                    
-                    </form>
-                </div>
+    
+             
                 
                 
                 
                 
                 
                 
-                <input type="submit" value="Send it!">
             </div>
         
                 
