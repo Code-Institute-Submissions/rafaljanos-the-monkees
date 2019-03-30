@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
 
+/*--------------------------------Header----------------------------*/
+
+.nav{
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 50px;
+    min-width: 100px;
+    background-color: darkgrey;
+    
+}
+
 header{
     margin: 0;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 0px;
     color: #fff;
-    background-color: #E81B23;
+    background-color: blue;
 }
 
 /*--------------------------------Text----------------------------*/
@@ -20,21 +31,10 @@ header{
     color: white;
     text-align: center;
     background-color: black;
-
 }
-
-
-
 
 .breake{
      min-height: 100px;
-}
-
-.about{
-   color: #fff;
-   border-left:  1px solid;
-   border-left-color: #B8B8B8;
-   
 }
 
 .shows{
@@ -50,22 +50,19 @@ header{
     border-left-color: black;
 }
 
-.empty-space{
-    min-height: 500px;
+/*--------------------------------Index----------------------------*/
+
+
+.about{
+    
+    color: white;
+    height: 200px;
+    width: 450px;
+    position: absolute;
+    top: 32%;
+   
 }
-
-
-
-.nav{
-    margin-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    min-height: 100px;
-    min-width: 100px;
-    background-color: #E81B23;
-
-}
-
+    
 /*--------------------------------Images----------------------------*/
 
 .background-shows{
@@ -73,7 +70,14 @@ header{
 }
 
 .background-index {
-    background-color: #FFD95C;
+    background: url("../images/index-back1.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+    
+    
 }
 
 .background-our-tracks {
@@ -99,13 +103,13 @@ header{
 /*------------------------------Form---------------------------------*/
 
 .form{
-
    background-color: white;
    color: blue;
    max-width: 400px;
-   
-   
- 
+}
+
+.space{
+    padding-top: 50px;
 }
 
 .form-table{
@@ -116,8 +120,6 @@ header{
 
 /*--------------------------------NAV----------------------------*/
 .nav-gallery{
-    border-radius: 10px 10000px;
-    background-color: #FF91BB;
     text-align: center;
     font-family: "Indie+Flower";
     font-size: 40px;
@@ -125,23 +127,10 @@ header{
     
 }
 
-.nav-tracks{
-    
-    border-radius: 0px 0px 50px 50px;
-    background-color: #D6CC0A;
-    text-align: center
-}
-
-.nav-shows{
-    border-radius: 0px 0px 50px 50px;
-    background-color: #68BBB8;
-    text-align: center
-}
-
-.nav-book{
-    border-radius: 10000px 10px;
-    background-color: #F5855B;
-    text-align: center
+.nav-bar{
+    text-align: center;
+    font-family: "Indie+Flower";
+    font-size: 25px;
 }
 
 

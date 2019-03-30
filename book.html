@@ -39,11 +39,11 @@
                                 <td><input type="surname" id="surname" placeholder="Surname" required></td>
                             </tr>
                             <tr>
-                                <td><label for="name">Your Telephone</label></td>
-                                <td><input type="number" id="name" placeholder="Number" required></td>
+                                <td><label for="number">Your Telephone</label></td>
+                                <td><input type="number" id="number" placeholder="Number" required></td>
                             </tr>
                             <tr>
-                                <td><label for="email">Your Gender</label></td>
+                                <td><label for="gender" required>Your Gender</label></td>
                                 <td>
                                     <select>
                                         <option selected></option>
@@ -58,24 +58,26 @@
                             </tr>
                             <tr>
                                 <div><td>Adress of Venue</td></div>
-                                <td><textarea rows="6" cols="22"></textarea></td>
+                                <td><textarea rows="6" cols="22" required></textarea></td>
                             </tr>
                             <tr>
                                 <td>Type of venue</td>
                             </tr>
                             <tr>
-                                <td><input type="checkbox" name="type" checked>Authograph</td>
+                                <td><input type="checkbox" name="type">Authograph</td>
                                 <td><input type="checkbox" name="type" value="dfsd">Photoshot</td>
                             </tr>
                             <tr>
                                 <td><input type="checkbox" name="type" value="dfsd">Concert</td>
                                 <td><input type="checkbox" name="type" value="dfsd">Private</td>
                             </tr>
+                            <tr>
                                 <td><input type="checkbox" name="type" value="dfsd">Wedding</td>
                                 <td><input type="checkbox" name="type" value="dfsd">Charity</td>
+                            </tr>
                             <tr>
-                                <td><div><button>
-                                    <span>SEND</span>
+                                <td><div class="space"><button>
+                                    <span class="send-button">SEND</span>
                                 </button></div></td>
                             </tr>
                         </table></form>
