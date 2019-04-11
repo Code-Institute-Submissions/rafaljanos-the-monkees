@@ -27,18 +27,7 @@
          min-height: 100px;
         }
     
-    .shows{
-        padding-top: 100px;
-        }
     
-    .shows1{
-        text-align: right;
-        }
-    
-    .shows2{
-        border-left: 3px solid;
-        border-left-color: black;
-        }
 
 /*--------------------------------Index----------------------------*/
    
@@ -51,9 +40,7 @@
     
     
     
-    .footer {
-        padding-top: 100px;
-        }
+    
 
    
     .background-gallery {
@@ -87,23 +74,6 @@
         display: flex;
         padding-top: 100px;
         }
-
-/*--------------------------------NAV----------------------------*/
-    
-    
-    
-        
-    
-/*-----------------------------------------------------hover*/
-
-
-    
-
-
-
-/*-----------------------------------------------------Footer*/
-
-    
 
 
 
@@ -274,7 +244,7 @@
     
     .gnav-bar a i {
         margin-top: 5px;
-        color: #6B4D26;
+        color: #BFBFBF;
         font-size: 18px;
         }
     
@@ -319,7 +289,7 @@
         padding-left: 0px;
         padding-right: 0px;
         }
-       
+/*-----------------------------------------------------------------320px-MEDIA*/       
     .video {
         text-align: center;
         padding-top: 70px;
@@ -332,27 +302,129 @@
         border: 1px solid #2A1A0B;
         }    
     
-        
-        
+    .background-media {
+        background: url("../images/media/cassetem.jpg"); 
+        background-repeat: no-repeat;
+        background-color: #000000;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
     
+    .albums{
+        text-align: center;
+        width: 100%;
+        padding-top: 100px;
+        color: black;
+        }
+        
+    .albums img{
+        border-radius: 30px;
+        border: 1px solid #2A1A0B;
+        }  
+        
+    .albums audio{
+        width: 230px;
+        height: 30px;
+        }    
+        
+    .album{
+        text-align: center;
+        width: 100%;
+        padding-top: 70px;
+        color: black;
+        }
+        
+    .album img{
+        border-radius: 30px;
+        
+        }
+        
+    .album audio{
+        width: 230px;
+        height: 30px;
+        }    
+    
+    .tracks{
+        text-align: center;
+        margin-top: -20px;
+        }
+
+    .tracks p{
+        color: #999187;
+        font-family: "Indie+Flower";
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 30px;
+        position:relative;
+        top: 15px;
+        }
+    .tracks audio{
+        text-align: center;
+        opacity: 0.5;
+        position: relative;
+        top: 0px;
+    }
+        
+/*-----------------------------------------------------------------320px-SHOWS*/
+    
+    .background-shows {
+        background: url("../images/shows/showsbgsm.jpg");
+        background-repeat: no-repeat;
+        background-color: #000000;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+        background-attachment: fixed;
+        }
+    
+        
+    .shows{
+        padding-top: 10px;
+    
+        }
+    
+    .shows1{
+        
+     
+        text-align: center;
+        
+        }
+        
+    .shows img{
+        height: 80px;
+        
+    }
+    
+    .shows2{
+        color: #EBF4EC;
+        border-left: 3px solid;
+        border-left-color: #EBF4EC;
+        padding-left: 30px;
+        margin-left: 60px;
+        margin-right: 60px;
+        font-size: 13px;
+        }
+        
+    .shows2 span{
+        font-weight: 700;
+        font-family: "Indie+Flower";
+        font-size: 16px;
+    }
+    
+    .monkees{
+        color:#EBF4EC;
+        text-align: center;
+        padding-top: 80px;
+        font-size: 25px;
+        font-family: "Indie+Flower";
+        font-weight: 600;
+    }
     
 /*----------------------------------------------------------------320px-FOOTER*/    
-    .footer {
-        padding-top: 20px;
-        }
-    
-    .footer-social{
-        text-align: center;
-        letter-spacing: 10px;
-        font-size: 25px;
-        color: green;
-        }
-        
-    .footer-social a i{
-        width: 25px;
-        text-decoration: none;
-        color: #9B9B99;
-        }
+   
         
         
 @keyframes growing {
@@ -367,16 +439,7 @@
 
 @media (min-width: 768px) {
     
-    .about1 {
-        font-size: 12px;
-        margin-top: 100px;
-        padding-left: 60px;
-        padding-right: 60px;
-        border-left-color: white;
-        border-left-style: double;
-        border-left-width: thin;
-        border-right: hidden;
-        }
+    
         
     .nav{
         opacity: 1;
@@ -408,14 +471,14 @@
     .nav-bar a {
         width: 100%;
         text-decoration: none;
-        color: #857D68;
+        color: #BFBFBF;
         height: 120px;
         }
     
     .nav-bar a i {
         padding-top: 0px;
         display: block;
-        color: #857D68;
+        color: #BFBFBF;
         font-size: 28px;
         }
 
@@ -439,12 +502,9 @@
         background-image: url("../images/logo.png");
         width: 100px;
         height: 60px;
-        
         }
     
-    .logo-img:hover{
-        background-image: url("../images/logo2.png");
-        }
+    
     
     .about{
         color: white;
@@ -455,12 +515,15 @@
         }
     
     .about1{
-        color: #A4A295;
-        border-left-color: #A4A295;
+        color: #BFBFBF;
+        border-left-color: #BFBFBF;
         border-left-style: double;
         border-left-width: thick;
+        border-right: hidden;
         padding-left: 25px;
         padding-right: 25px;
+        font-family: "Indie+Flower";
+        font-size: 15px;
         }
     
     
@@ -524,7 +587,7 @@
     .gnav-bar a {
         width: 100%;
         text-decoration: none;
-        color: #7E5E2F;
+        color: #BFBFBF;
         height: 60px;
         
         }
@@ -532,7 +595,7 @@
     .gnav-bar a i {
         padding-top: 0px;
         display: block;
-        color: #7E5E2F;
+        color: #BFBFBF;
         font-size: 28px;
         
         }
@@ -601,10 +664,14 @@
     .albums img{
         border-radius: 50px;
         border: 1px solid #2A1A0B;
-        }    
+        }   
+        
+    .albums audio{
+        width: 300px;
+        height: 50px;
+        }  
         
     .album{
-        
         text-align: right;
         width: 100%;
         padding-top: 50px;
@@ -613,8 +680,13 @@
         
     .album img{
         border-radius: 50px;
-        border: 1px solid #2A1A0B;
+        
         }
+        
+    .album audio{
+        width: 300px;
+        height: 50px;
+        }    
     
     .tracks{
         text-align: left;
@@ -628,6 +700,8 @@
         top: 90px;
         left: 20px;
         z-index: 99;
+        text-align: left;
+        color: black;
     }
 
     .tracks audio{
@@ -637,22 +711,82 @@
         top: 50px;
     }
 
+/*-----------------------------------------------------------------768px-SHOWS*/  
 
-
+    .background-shows {
+        background: url("../images/shows/showsbglg.jpg");
+        background-repeat: no-repeat;
+        background-color: #000000;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+        background-attachment: fixed;
+        }
+    
+        
+    .shows{
+        padding-top: 10px;
+        }
+    
+    .shows1{
+        
+        text-align: right;
+        }
+        
+    .shows img{
+        height: 280px;
+    }
+    
+    .shows2{
+        
+        color: #EBF4EC;
+        border-left: 3px solid;
+        border-left-color: #EBF4EC;
+        margin-left: 0px;
+        margin-right: 0px;
+        }
+        
+    .shows2 span{
+        font-weight: 700;
+        font-family: "Indie+Flower";
+        font-size: 25px;
+    }
+    
+    .monkees{
+        color:#EBF4EC;
+        text-align: center;
+        padding-top: 150px;
+        font-size: 40px;
+        font-family: "Indie+Flower";
+        font-weight: 600;
+    }
 
 
 /*----------------------------------------------------------------768px-FOOTER*/
-        .footer-social{
-        font-size: 25px;
-        position: relative;
+    
+    footer {
+        margin-top: 300px;
+        }
+        
+    .sociali {
+        
         text-align: right;
-        padding-right: 50px;
-        padding-bottom: 50px;
-        }
-
-    .footer-social a i{
-        width: 25px;
+        }    
+        
+    .sociali a i{
+        letter-spacing: 20px;
         text-decoration: none;
-        color:  #857D68;
+        color:  #BFBFBF;
+        font-size: 30px;
+        
         }
+        
+    .sociali  p{
+        
+        text-decoration: none;
+        color:  #BFBFBF;
+        text-align: right;
+        border-left: 100px;
+        }
+    
 }
