@@ -192,7 +192,6 @@
         height: 100%;
         width: 100%;
         background-size: 100%;
-        padding-top: -220px;
         background-attachment: fixed;
         }
         
@@ -440,9 +439,8 @@ footer {
         height: 0;
     }
     to {
-        height: 150;
+        height: 30px;
     }
-    
 }    
     
 /*-----------------------------------------------------------------320px-EVENT*/
