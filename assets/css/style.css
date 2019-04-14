@@ -60,20 +60,7 @@
     
 /*------------------------------Form---------------------------------*/
 
-    .form{
-        background-color: white;
-        color: blue;
-        max-width: 400px;
-        }
     
-    .space{
-        padding-top: 50px;
-        }
-    
-    .form-table{
-        display: flex;
-        padding-top: 100px;
-        }
 
 
 
@@ -370,6 +357,7 @@
         
 /*-----------------------------------------------------------------320px-SHOWS*/
     
+    
     .background-shows {
         background: url("../images/shows/showsbgsm.jpg");
         background-repeat: no-repeat;
@@ -383,41 +371,36 @@
         
     .shows{
         padding-top: 10px;
-    
-        }
+    }
     
     .shows1{
-        
-     
         text-align: center;
-        
-        }
+    }
         
     .shows img{
+        margin-top: 30px;
         height: 80px;
-        
     }
     
     .shows2{
+        margin-top: 0px;
         color: #EBF4EC;
-        border-left: 3px solid;
-        border-left-color: #EBF4EC;
-        padding-left: 30px;
-        margin-left: 60px;
-        margin-right: 60px;
+        text-align: center;
         font-size: 13px;
-        }
+    }
         
     .shows2 span{
         font-weight: 700;
         font-family: "Indie+Flower";
-        font-size: 16px;
+        font-size: 19px;
+        letter-spacing: 2px;
     }
     
     .monkees{
+        margin: auto;
         color:#EBF4EC;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 100px;
         font-size: 25px;
         font-family: "Indie+Flower";
         font-weight: 600;
@@ -425,8 +408,33 @@
     
 /*----------------------------------------------------------------320px-FOOTER*/    
    
+footer {
+        padding-top: 100px;
+        margin: auto;
+    }
+    .social{
+        margin: auto;
+    }
+    .sociali{
+        text-align: center;
+        color:  #BFBFBF;
+        font-size: 22px;
+        text-decoration: none;
+        letter-spacing: 20px;
+    }
+    
+    .sociali a i{
+        color:  #BFBFBF;
+    }
         
-        
+    .socialc{
+        margin: auto;
+        font-size: 12px;
+        letter-spacing: normal;
+        padding-top: 70px;
+    }       
+}
+
 @keyframes growing {
     from {
         height: 0;
@@ -434,7 +442,61 @@
     to {
         height: 150;
     }
-}
+    
+}    
+    
+/*-----------------------------------------------------------------320px-EVENT*/
+
+.background-event {
+        background: url("../images/book/eventm.jpg");
+        background-repeat: no-repeat;
+        background-color: #000000;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .world{
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .world img{
+        max-width: 300px;
+        opacity: 0.8;
+    }
+    
+    
+    .form{
+        margin: auto;
+        border-radius: 15px;
+        background-color: #B2B2B2;
+        opacity: 0.8;
+        max-width: 300px;
+        font-family: "Indie+Flower";
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    .space {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    
+    .form td input, select,textarea{
+        background-color: #B2B2B2;
+        border-color: black;
+        border-radius: 5px;
+        border-top: none;
+        border-bottom: none;
+    }
+    
+    .form-table{
+        margin-top: 20px;
+    }
+
 /*-----------------------------------------------------------------------768px*/
 
 @media (min-width: 768px) {
@@ -721,30 +783,30 @@
         width: 100%;
         background-size: 100%;
         background-attachment: fixed;
-        }
+    }
     
         
     .shows{
         padding-top: 10px;
-        }
+    }
     
     .shows1{
         
         text-align: right;
-        }
+    }
         
     .shows img{
         height: 280px;
     }
     
     .shows2{
-        
+        text-align: left;
         color: #EBF4EC;
         border-left: 3px solid;
         border-left-color: #EBF4EC;
         margin-left: 0px;
         margin-right: 0px;
-        }
+    }
         
     .shows2 span{
         font-weight: 700;
@@ -760,33 +822,81 @@
         font-family: "Indie+Flower";
         font-weight: 600;
     }
+/*-----------------------------------------------------------------768px-EVENT*/
+
+.background-event {
+        background: url("../images/book/event1.jpg");
+        background-repeat: no-repeat;
+        background-color: #000000;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .world{
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .world img{
+        max-width: 500px;
+        opacity: 0.8;
+    }
+    
+    
+    .form{
+        margin: auto;
+        border-radius: 15px;
+        background-color: #B2B2B2;
+        opacity: 0.8;
+        max-width: 400px;
+        font-family: "Indie+Flower";
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .space{
+        padding-top: 0px;
+    }
+    
+    .form td input, select,textarea{
+        background-color: #B2B2B2;
+        border-color: black;
+        border-radius: 5px;
+        border-top: none;
+        border-bottom: none;
+    }
+    
+    .form-table{
+        margin-top: 20px;
+    }
 
 
 /*----------------------------------------------------------------768px-FOOTER*/
     
     footer {
         margin-top: 300px;
-        }
-        
-    .sociali {
-        
-        text-align: right;
-        }    
-        
-    .sociali a i{
-        letter-spacing: 20px;
-        text-decoration: none;
+    }
+    .social{
+        margin-bottom: 20px;
+    }
+    .sociali{
+        text-align: center;
         color:  #BFBFBF;
         font-size: 30px;
-        
-        }
-        
-    .sociali  p{
-        
         text-decoration: none;
-        color:  #BFBFBF;
-        text-align: right;
-        border-left: 100px;
-        }
+        letter-spacing: 20px;
+    }
     
+    .sociali a i{
+        color:  #BFBFBF;
+        }
+        
+    .socialc{
+        margin: auto;
+        font-size: 12px;
+        letter-spacing: normal;
+        padding-top: 70px;
+    }
 }
