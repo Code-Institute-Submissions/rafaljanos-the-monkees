@@ -4,11 +4,7 @@
 
     
 
-    header{
-        margin: 0;
-        padding-left: 0px;
-        color: #fff;
-        }
+    
 
 /*--------------------------------Text----------------------------*/
 
@@ -55,13 +51,6 @@
         
   
     
-    
-    
-    
-/*------------------------------Form---------------------------------*/
-
-    
-
 
 
 
@@ -79,20 +68,15 @@
         height: 100%;
         width: 100%;
         background-size: auto;
-        }
-    
-    
+    }
         
     .nav-logo{
         height: 0px;
         margin-top: 0px;
         margin-bottom: 0px;                                
         margin-left: 0px;
+    }
         
-        }
-        
-       
-    
     .logo-img {
         background-color: #9B9B99;
         animation-name: growing;
@@ -107,22 +91,20 @@
         background-image: url("../images/logo-mobile.png");
         height: 30px;
         margin-top: 20px;
-        }
+    }
         
     .logo-img:hover{
         background-image: url("../images/logo-mobileh.png");
-        }
+    }
     
     .navigation {
         position: fixed;
         width: 100%;
         z-index: 99;
         opacity: 0.8;
-        
-        }
+    }
         
     .nav{
-       
         background-color: #9B9B99;
         animation-name: growing;
         animation-duration: 1s;
@@ -133,34 +115,22 @@
         height: 30px;
         margin-top: 20px;
         padding-left: 0px;
-        
         text-align: left;
         margin-right: 0px;
-        
-        }
-        
-    
+        padding-right: 0px;
+    }
         
     .nav-bar a i {
         margin-top: 5px;
         color: #282828;
         font-size: 18px;
-        
-        }
-    
+    }
     
     .nav-bar a span {
         visibility: hidden;
         display: block;
-        text-transform: uppercase;
-        width: 100%;
-        padding-top: 5px;
-        text-align: center;
-        font-weight: 300;
-        letter-spacing: 3px;
-        }
-    
-    
+      
+    }
     
     .about{
         color: white;
@@ -169,7 +139,7 @@
         padding-right: 0px;
         margin-right: 20px;
         margin-left: 20px;
-        }
+    }
         
     .about1 {
         font-size: 12px;
@@ -183,8 +153,10 @@
         border-right-color: #9B9B99;
         border-right-style: solid;
         border-right-width: 4px;
-        }    
+    }    
+    
 /*---------------------------------------------------------------320px-GALLERY*/
+
     .background-gallery {
         background: url("../images/gallery/mgalleryback.jpg");
         background-repeat: no-repeat;
@@ -193,24 +165,24 @@
         width: 100%;
         background-size: 100%;
         background-attachment: fixed;
-        }
+    }
         
     .img-bg {
         text-align: center;
-        }
+    }
     
     .img-bg img{
         width: 80%;
         padding-top: 30px;
         padding-bottom: 30px;
-        }
+    }
         
     .gnav-logo{
         height: 0px;
         margin-top: 0px;
         margin-bottom: 0px;                                
         margin-left: 0px;
-        } 
+    } 
         
     .glogo-img {
         background-color: #020202;
@@ -226,13 +198,13 @@
         background-image: url("../images/logo-m.png");
         height: 30px;
         margin-top: 20px;
-        }
+    }
     
     .gnav-bar a i {
         margin-top: 5px;
         color: #BFBFBF;
         font-size: 18px;
-        }
+    }
     
     .gnav-bar a span {
         visibility: hidden;
@@ -243,7 +215,7 @@
         text-align: center;
         font-weight: 300;
         letter-spacing: 3px;
-        }    
+    }    
         
     .gnav{
         background-color: #020202;
@@ -258,7 +230,7 @@
         padding-left: 0px;
         margin-right: 0px;
         text-align: left;
-        }
+    }
         
     .members p{
         text-align: center;
@@ -267,26 +239,28 @@
         font-weight: 700;
         color: #9B9B99;
         margin-top: 20px;
-        }
+    }
         
     .members {
         text-align: center;
         padding-top: 100px;
         padding-left: 0px;
         padding-right: 0px;
-        }
+    }
+    
 /*-----------------------------------------------------------------320px-MEDIA*/       
+    
     .video {
         text-align: center;
         padding-top: 70px;
         padding-bottom: 70px;
-        }
+    }
     
     .video video {
         width: 80%;
         border-radius: 50px;
         border: 1px solid #2A1A0B;
-        }    
+    }    
     
     .background-media {
         background: url("../images/media/cassetem.jpg"); 
@@ -303,39 +277,38 @@
         width: 100%;
         padding-top: 100px;
         color: black;
-        }
+    }
         
     .albums img{
         border-radius: 30px;
         border: 1px solid #2A1A0B;
-        }  
+    }  
         
     .albums audio{
         width: 230px;
         height: 30px;
-        }    
+    }    
         
     .album{
         text-align: center;
         width: 100%;
         padding-top: 70px;
         color: black;
-        }
+    }
         
     .album img{
         border-radius: 30px;
-        
-        }
+    }
         
     .album audio{
         width: 230px;
         height: 30px;
-        }    
+    }    
     
     .tracks{
         text-align: center;
         margin-top: -20px;
-        }
+    }
 
     .tracks p{
         color: #999187;
@@ -346,7 +319,8 @@
         padding-top: 30px;
         position:relative;
         top: 15px;
-        }
+    }
+    
     .tracks audio{
         text-align: center;
         opacity: 0.5;
@@ -356,7 +330,6 @@
         
 /*-----------------------------------------------------------------320px-SHOWS*/
     
-    
     .background-shows {
         background: url("../images/shows/showsbgsm.jpg");
         background-repeat: no-repeat;
@@ -365,9 +338,8 @@
         width: 100%;
         background-size: 100%;
         background-attachment: fixed;
-        }
+    }
     
-        
     .shows{
         padding-top: 10px;
     }
@@ -414,6 +386,7 @@ footer {
     .social{
         margin: auto;
     }
+    
     .sociali{
         text-align: center;
         color:  #BFBFBF;
@@ -465,7 +438,6 @@ footer {
         opacity: 0.8;
     }
     
-    
     .form{
         margin: auto;
         border-radius: 15px;
@@ -477,12 +449,15 @@ footer {
         font-size: 15px;
     }
     
+    .inputfield{
+        width: 150px;
+        
+    }
     .space {
         padding-bottom: 10px;
         padding-top: 10px;
     }
 
-    
     .form td input, select,textarea{
         background-color: #B2B2B2;
         border-color: black;
@@ -499,8 +474,6 @@ footer {
 
 @media (min-width: 768px) {
     
-    
-        
     .nav{
         opacity: 1;
         background-color: transparent;
@@ -508,39 +481,38 @@ footer {
         margin-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        
-        }
+    }
         
     .nav-logo{
         margin-top: 0px;
         margin-left: 30px;
-        }
+    }
         
     .nav-gallery{
         text-align: center;
         font-family: "Indie+Flower";
         font-size: 40px;
-        }
+    }
 
     .nav-bar{
         text-align: center;
         font-family: "Indie+Flower";
         font-size: 25px;
-        }
+    }
     
     .nav-bar a {
         width: 100%;
         text-decoration: none;
         color: #BFBFBF;
         height: 120px;
-        }
+    }
     
     .nav-bar a i {
         padding-top: 0px;
         display: block;
         color: #BFBFBF;
         font-size: 28px;
-        }
+    }
 
     .nav-bar a span {
         visibility: visible;
@@ -552,7 +524,7 @@ footer {
         font-size: 12px;
         font-weight: 600;
         letter-spacing: 2px;
-        }
+    }
 
     .logo-img {
         background-color: transparent;
@@ -562,9 +534,7 @@ footer {
         background-image: url("../images/logo.png");
         width: 100px;
         height: 60px;
-        }
-    
-    
+    }
     
     .about{
         color: white;
@@ -572,7 +542,7 @@ footer {
         padding-left: 25px;
         padding-right: 65px;
         margin-right: 0px;
-        }
+    }
     
     .about1{
         color: #BFBFBF;
@@ -584,8 +554,7 @@ footer {
         padding-right: 25px;
         font-family: "Indie+Flower";
         font-size: 15px;
-        }
-    
+    }
     
     .background-index {
         background: url("../images/index-background.jpg");
@@ -594,8 +563,10 @@ footer {
         height: 100%;
         width: 100%;
         background-size: 100%;
-        }
+    }
+    
 /*---------------------------------------------------------------768px-GALLERY*/
+    
     .background-gallery {
         background: url("../images/gallery/galleryback.jpg");
         background-repeat: no-repeat;
@@ -604,15 +575,14 @@ footer {
         width: 100%;
         background-size: 100%;
         background-attachment: fixed;
-        }
+    }
         
     .navigation {
         position: fixed;
         width: 100%;
         z-index: 99;
         opacity: 0.8;
-        }
-     
+    }
      
     .gnav{
         opacity: 1;
@@ -621,12 +591,13 @@ footer {
         margin-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        }
+    }
         
     .glogo-img{
         height: 60px;
         background-position: left;
     }    
+    
     .gnav-logo{
         background-color: black;
         height: 90px;
@@ -634,14 +605,12 @@ footer {
         margin-left: 0px;
         padding-left: 20px;
         top:0px;
-        }
+    }
         
-
     .gnav-bar{
         text-align: center;
         font-family: "Indie+Flower";
         font-size: 25px;
-        
         }
     
     .gnav-bar a {
@@ -649,16 +618,14 @@ footer {
         text-decoration: none;
         color: #BFBFBF;
         height: 60px;
-        
-        }
+    }
     
     .gnav-bar a i {
         padding-top: 0px;
         display: block;
         color: #BFBFBF;
         font-size: 28px;
-        
-        }
+    }
 
     .gnav-bar a span {
         visibility: visible;
@@ -670,8 +637,7 @@ footer {
         font-size: 12px;
         font-weight: 600;
         letter-spacing: 2px;
-        
-        }
+    }
         
     .members p{
         text-align: center;
@@ -680,28 +646,29 @@ footer {
         font-weight: 700;
         color: black;
         margin-top: 20px;
-        }
+    }
         
     .members {
         text-align: center;
         padding: 120px 150px 150px 150px;
-        }
+    }
         
     .img-bg {
         text-align: center;
-        }
+    }
 
     .photo {
         padding-top: 30px;
-        }
+    }
         
     .video {
         text-align: center;
-        }
+    }
     
     .video video {
         width: 50%;
-        }
+    }
+    
 /*-----------------------------------------------------------------768px-MEDIA*/  
 
     .background-media {
@@ -712,7 +679,7 @@ footer {
         width: 100%;
         background-size: 100%;
         background-attachment: fixed;
-        }
+    }
 
     .albums{
         text-align: right;
@@ -724,33 +691,32 @@ footer {
     .albums img{
         border-radius: 50px;
         border: 1px solid #2A1A0B;
-        }   
+    }   
         
     .albums audio{
         width: 300px;
         height: 50px;
-        }  
+    }  
         
     .album{
         text-align: right;
         width: 100%;
         padding-top: 50px;
         color: black;
-        }
+    }
         
     .album img{
         border-radius: 50px;
-        
-        }
+    }
         
     .album audio{
         width: 300px;
         height: 50px;
-        }    
+    }    
     
     .tracks{
         text-align: left;
-        }
+    }
 
     .tracks p{
         font-family: "Indie+Flower";
@@ -783,13 +749,11 @@ footer {
         background-attachment: fixed;
     }
     
-        
     .shows{
         padding-top: 10px;
     }
     
     .shows1{
-        
         text-align: right;
     }
         
@@ -820,9 +784,10 @@ footer {
         font-family: "Indie+Flower";
         font-weight: 600;
     }
+    
 /*-----------------------------------------------------------------768px-EVENT*/
 
-.background-event {
+    .background-event {
         background: url("../images/book/event1.jpg");
         background-repeat: no-repeat;
         background-color: #000000;
@@ -841,7 +806,6 @@ footer {
         max-width: 500px;
         opacity: 0.8;
     }
-    
     
     .form{
         margin: auto;
@@ -876,9 +840,11 @@ footer {
     footer {
         margin-top: 300px;
     }
+    
     .social{
         margin-bottom: 20px;
     }
+    
     .sociali{
         text-align: center;
         color:  #BFBFBF;
