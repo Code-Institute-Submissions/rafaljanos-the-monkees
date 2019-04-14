@@ -538,7 +538,7 @@ footer {
     
     .about{
         color: white;
-        padding-top: 100px;
+        padding-top: 200px;
         padding-left: 25px;
         padding-right: 65px;
         margin-right: 0px;
@@ -838,10 +838,11 @@ footer {
 /*----------------------------------------------------------------768px-FOOTER*/
     
     footer {
-        margin-top: 300px;
+        margin-top: 600px;
     }
     
     .social{
+        margin-top: 400px;
         margin-bottom: 20px;
     }
     
