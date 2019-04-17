@@ -1,67 +1,87 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
 
-/*--------------------------------Header----------------------------*/
+/*-------------------------------------------------------------------------NEW*/
+/*---------------------------------------------------------------------COLOURS*/
 
+.ui-menu-color-gallery {
+    background-color: white;
+}
+.ui-menu-color-tracks{
+    background-color: red;
+}
+.ui-menu-color-shows{
+    background-color: orange;
+}
+.ui-menu-color-book{
+    background-color: yellow;
+}
+
+/*----------------------------------------------------------------------HEDDER*/
+.list-inline-item:not(:last-child){
+    margin: 0;
     
-
+}
+.menucontainer{
+    font-size: 0;
     
+}
+.container-fluid{
+    padding: 0px;
+}
+/*-------------------------------------------------------------------------NEW*/
 
-/*--------------------------------Text----------------------------*/
+.list-inline {
+    font-family: "Indie+Flower";
+    font-weight: 200;
+    font-size: 30px;
+}
 
-    .list-inline{
-        font-family: "Indie+Flower";
-        font-weight: 200;
-        font-size: 30px;
-        }
+.members-name {
+    color: black;
+    text-align: center;
+}
 
-    .members-name {
-        color: black;
-        text-align: center;
-        }
-    
-    .breake{
-         min-height: 100px;
-        }
-    
-    
-
-/*--------------------------------Index----------------------------*/
-   
-
-/*----------------------------------------------------------------------Images*/
-
-    .background-shows{
-        background-color: #68BBB8;
-        }
-    
-    
-    
-    
-
-   
-    .background-gallery {
-        background-color: #FF91BB;
-        background-size: cover;
-        }
-    
-    .background-book {
-        background-color: #F5855B;
-        }
-
-        
-  
-    
+.breake {
+    min-height: 100px;
+}
 
 
 
-   
-    
+
+
+
+.background-shows {
+    background-color: #68BBB8;
+}
+
+
+
+
+
+
+.background-gallery {
+    background-color: #FF91BB;
+    background-size: cover;
+}
+
+.background-book {
+    background-color: #F5855B;
+}
+
+
+
+
+
+
+
+
+
 
 
 
 @media (min-width: 120px) {
-    
-    .background-index{
+
+    .background-index {
         background: url("../images/mobileb.png");
         background-repeat: no-repeat;
         background-color: #000000;
@@ -69,14 +89,9 @@
         width: 100%;
         background-size: auto;
     }
-        
-    .nav-logo{
-        height: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;                                
-        margin-left: 0px;
-    }
-        
+
+    .nav-logo {}
+
     .logo-img {
         background-color: #9B9B99;
         animation-name: growing;
@@ -85,26 +100,21 @@
         animation-fill-mode: forwards;
         animation-iteration-count: 1;
         animation-direction: normal;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        background-image: url("../images/logo-mobile.png");
-        height: 30px;
-        margin-top: 20px;
+
     }
-        
-    .logo-img:hover{
+
+    .logo-img:hover {
         background-image: url("../images/logo-mobileh.png");
     }
-    
+
     .navigation {
         position: fixed;
         width: 100%;
         z-index: 99;
         opacity: 0.8;
     }
-        
-    .nav{
+
+    .nav {
         background-color: #9B9B99;
         animation-name: growing;
         animation-duration: 1s;
@@ -112,27 +122,21 @@
         animation-fill-mode: forwards;
         animation-iteration-count: 1;
         animation-direction: normal;
-        height: 30px;
-        margin-top: 20px;
-        padding-left: 0px;
-        text-align: left;
-        margin-right: 0px;
-        padding-right: 0px;
     }
-        
+
     .nav-bar a i {
-        margin-top: 5px;
+        margin-top: 10px;
         color: #282828;
-        font-size: 18px;
+        font-size: 25px;
     }
-    
+
     .nav-bar a span {
         visibility: hidden;
         display: block;
-      
+
     }
-    
-    .about{
+
+    .about {
         color: white;
         padding-top: 80px;
         padding-left: 25px;
@@ -140,23 +144,16 @@
         margin-right: 20px;
         margin-left: 20px;
     }
-        
+
     .about1 {
         font-size: 12px;
-        color: #9B9B99; 
+        color: #9B9B99;
         padding-left: 20px;
         padding-right: 20px;
         margin-top: 60px;
-        border-left-color: #9B9B99;
-        border-left-style: solid;
-        border-left-width: 4px;
-        border-right-color: #9B9B99;
-        border-right-style: solid;
-        border-right-width: 4px;
-    }    
-    
-/*---------------------------------------------------------------320px-GALLERY*/
+    }
 
+    /*---------------------------------------------------------------320px-GALLERY*/
     .background-gallery {
         background: url("../images/gallery/mgalleryback.jpg");
         background-repeat: no-repeat;
@@ -166,24 +163,24 @@
         background-size: 100%;
         background-attachment: fixed;
     }
-        
+
     .img-bg {
         text-align: center;
     }
-    
-    .img-bg img{
+
+    .img-bg img {
         width: 80%;
         padding-top: 30px;
         padding-bottom: 30px;
     }
-        
-    .gnav-logo{
+
+    .gnav-logo {
         height: 0px;
         margin-top: 0px;
-        margin-bottom: 0px;                                
+        margin-bottom: 0px;
         margin-left: 0px;
-    } 
-        
+    }
+
     .glogo-img {
         background-color: #020202;
         animation-name: growing;
@@ -197,15 +194,15 @@
         background-position: center;
         background-image: url("../images/logo-m.png");
         height: 30px;
-        margin-top: 20px;
+
     }
-    
+
     .gnav-bar a i {
         margin-top: 5px;
         color: #BFBFBF;
         font-size: 18px;
     }
-    
+
     .gnav-bar a span {
         visibility: hidden;
         display: block;
@@ -215,9 +212,9 @@
         text-align: center;
         font-weight: 300;
         letter-spacing: 3px;
-    }    
-        
-    .gnav{
+    }
+
+    .gnav {
         background-color: #020202;
         animation-name: growing;
         animation-duration: 1s;
@@ -226,13 +223,13 @@
         animation-iteration-count: 1;
         animation-direction: normal;
         height: 30px;
-        margin-top: 20px;
+
         padding-left: 0px;
         margin-right: 0px;
         text-align: left;
     }
-        
-    .members p{
+
+    .members p {
         text-align: center;
         font-family: "Indie+Flower";
         font-size: 23px;
@@ -240,30 +237,29 @@
         color: #9B9B99;
         margin-top: 20px;
     }
-        
+
     .members {
         text-align: center;
         padding-top: 100px;
         padding-left: 0px;
         padding-right: 0px;
     }
-    
-/*-----------------------------------------------------------------320px-MEDIA*/       
-    
+
+    /*-----------------------------------------------------------------320px-MEDIA*/
     .video {
         text-align: center;
         padding-top: 70px;
         padding-bottom: 70px;
     }
-    
+
     .video video {
         width: 80%;
         border-radius: 50px;
         border: 1px solid #2A1A0B;
-    }    
-    
+    }
+
     .background-media {
-        background: url("../images/media/cassetem.jpg"); 
+        background: url("../images/media/cassetem.jpg");
         background-repeat: no-repeat;
         background-color: #000000;
         height: 100%;
@@ -271,65 +267,64 @@
         background-size: 100%;
         background-attachment: fixed;
     }
-    
-    .albums{
+
+    .albums {
         text-align: center;
         width: 100%;
         padding-top: 100px;
         color: black;
     }
-        
-    .albums img{
+
+    .albums img {
         border-radius: 30px;
         border: 1px solid #2A1A0B;
-    }  
-        
-    .albums audio{
+    }
+
+    .albums audio {
         width: 230px;
         height: 30px;
-    }    
-        
-    .album{
+    }
+
+    .album {
         text-align: center;
         width: 100%;
         padding-top: 70px;
         color: black;
     }
-        
-    .album img{
+
+    .album img {
         border-radius: 30px;
     }
-        
-    .album audio{
+
+    .album audio {
         width: 230px;
         height: 30px;
-    }    
-    
-    .tracks{
+    }
+
+    .tracks {
         text-align: center;
         margin-top: -20px;
     }
 
-    .tracks p{
+    .tracks p {
         color: #999187;
         font-family: "Indie+Flower";
         font-weight: 700;
         font-size: 18px;
         text-align: center;
         padding-top: 30px;
-        position:relative;
+        position: relative;
         top: 15px;
     }
-    
-    .tracks audio{
+
+    .tracks audio {
         text-align: center;
         opacity: 0.5;
         position: relative;
         top: 0px;
     }
-        
-/*-----------------------------------------------------------------320px-SHOWS*/
-    
+
+    /*-----------------------------------------------------------------320px-SHOWS*/
     .background-shows {
         background: url("../images/shows/showsbgsm.jpg");
         background-repeat: no-repeat;
@@ -339,72 +334,71 @@
         background-size: 100%;
         background-attachment: fixed;
     }
-    
-    .shows{
+
+    .shows {
         padding-top: 10px;
     }
-    
-    .shows1{
+
+    .shows1 {
         text-align: center;
     }
-        
-    .shows img{
+
+    .shows img {
         margin-top: 30px;
         height: 80px;
     }
-    
-    .shows2{
+
+    .shows2 {
         margin-top: 0px;
         color: #EBF4EC;
         text-align: center;
         font-size: 13px;
     }
-        
-    .shows2 span{
+
+    .shows2 span {
         font-weight: 700;
         font-family: "Indie+Flower";
         font-size: 19px;
         letter-spacing: 2px;
     }
-    
-    .monkees{
+
+    .monkees {
         margin: auto;
-        color:#EBF4EC;
+        color: #EBF4EC;
         text-align: center;
         padding-top: 100px;
         font-size: 25px;
         font-family: "Indie+Flower";
         font-weight: 600;
     }
-    
-/*----------------------------------------------------------------320px-FOOTER*/    
-   
-footer {
+
+    /*----------------------------------------------------------------320px-FOOTER*/
+    footer {
         padding-top: 100px;
         margin: auto;
     }
-    .social{
+    .social {
         margin: auto;
     }
-    
-    .sociali{
+
+    .sociali {
         text-align: center;
-        color:  #BFBFBF;
+        color: #BFBFBF;
         font-size: 22px;
         text-decoration: none;
         letter-spacing: 20px;
     }
-    
-    .sociali a i{
-        color:  #BFBFBF;
+
+    .sociali a i {
+        color: #BFBFBF;
     }
-        
-    .socialc{
+
+    .socialc {
         margin: auto;
         font-size: 12px;
         letter-spacing: normal;
         padding-top: 70px;
-    }       
+    }
 }
 
 @keyframes growing {
@@ -412,69 +406,71 @@ footer {
         height: 0;
     }
     to {
-        height: 30px;
+        height: 40px;
     }
-}    
-    
+}
+
 /*-----------------------------------------------------------------320px-EVENT*/
 
 .background-event {
-        background: url("../images/book/eventm.jpg");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: 100%;
-        background-attachment: fixed;
-    }
+    background: url("../images/book/eventm.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
 
-    .world{
-        text-align: center;
-        padding-top: 100px;
-    }
-    
-    .world img{
-        max-width: 300px;
-        opacity: 0.8;
-    }
-    
-    .form{
-        margin: auto;
-        border-radius: 15px;
-        background-color: #B2B2B2;
-        opacity: 0.8;
-        max-width: 300px;
-        font-family: "Indie+Flower";
-        font-weight: 600;
-        font-size: 15px;
-    }
-    
-    .inputfield{
-        width: 150px;
-        
-    }
-    .space {
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
+.world {
+    text-align: center;
+    padding-top: 100px;
+}
 
-    .form td input, select,textarea{
-        background-color: #B2B2B2;
-        border-color: black;
-        border-radius: 5px;
-        border-top: none;
-        border-bottom: none;
-    }
-    
-    .form-table{
-        margin-top: 20px;
-    }
+.world img {
+    max-width: 300px;
+    opacity: 0.8;
+}
+
+.form {
+    margin: auto;
+    border-radius: 15px;
+    background-color: #B2B2B2;
+    opacity: 0.8;
+    max-width: 300px;
+    font-family: "Indie+Flower";
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.inputfield {
+    width: 150px;
+
+}
+
+.space {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.form td input,
+select,
+textarea {
+    background-color: #B2B2B2;
+    border-color: black;
+    border-radius: 5px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.form-table {
+    margin-top: 20px;
+}
 
 /*-----------------------------------------------------------------------768px*/
 
 @media (min-width: 768px) {
-    
-    .nav{
+    .nav {
         opacity: 1;
         background-color: transparent;
         animation-name: none;
@@ -482,44 +478,45 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
-        
-    .nav-logo{
+
+    .nav-logo {
         margin-top: 0px;
         margin-left: 30px;
     }
-        
-    .nav-gallery{
+
+    .nav-gallery {
         text-align: center;
         font-family: "Indie+Flower";
         font-size: 40px;
     }
 
-    .nav-bar{
-        text-align: center;
+    .nav-bar {
+        display: inline-block;
+
         font-family: "Indie+Flower";
         font-size: 25px;
     }
-    
+
     .nav-bar a {
         width: 100%;
         text-decoration: none;
         color: #BFBFBF;
         height: 120px;
     }
-    
+
     .nav-bar a i {
         padding-top: 0px;
-        display: block;
+
         color: #BFBFBF;
         font-size: 28px;
     }
 
     .nav-bar a span {
         visibility: visible;
-        display: block;
+
         width: 100%;
         padding-top: 5px;
-        text-align: center;
+
         text-transform: uppercase;
         font-size: 12px;
         font-weight: 600;
@@ -535,16 +532,16 @@ footer {
         width: 100px;
         height: 60px;
     }
-    
-    .about{
+
+    .about {
         color: white;
         padding-top: 200px;
         padding-left: 25px;
         padding-right: 65px;
         margin-right: 0px;
     }
-    
-    .about1{
+
+    .about1 {
         color: #BFBFBF;
         border-left-color: #BFBFBF;
         border-left-style: double;
@@ -555,7 +552,7 @@ footer {
         font-family: "Indie+Flower";
         font-size: 15px;
     }
-    
+
     .background-index {
         background: url("../images/index-background.jpg");
         background-repeat: no-repeat;
@@ -564,9 +561,8 @@ footer {
         width: 100%;
         background-size: 100%;
     }
-    
-/*---------------------------------------------------------------768px-GALLERY*/
-    
+
+    /*---------------------------------------------------------------768px-GALLERY*/
     .background-gallery {
         background: url("../images/gallery/galleryback.jpg");
         background-repeat: no-repeat;
@@ -576,15 +572,15 @@ footer {
         background-size: 100%;
         background-attachment: fixed;
     }
-        
+
     .navigation {
         position: fixed;
         width: 100%;
         z-index: 99;
         opacity: 0.8;
     }
-     
-    .gnav{
+
+    .gnav {
         opacity: 1;
         background-color: black;
         animation-name: none;
@@ -592,34 +588,34 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
-        
-    .glogo-img{
+
+    .glogo-img {
         height: 60px;
         background-position: left;
-    }    
-    
-    .gnav-logo{
+    }
+
+    .gnav-logo {
         background-color: black;
         height: 90px;
         margin-top: 0px;
         margin-left: 0px;
         padding-left: 20px;
-        top:0px;
+        top: 0px;
     }
-        
-    .gnav-bar{
+
+    .gnav-bar {
         text-align: center;
         font-family: "Indie+Flower";
         font-size: 25px;
-        }
-    
+    }
+
     .gnav-bar a {
         width: 100%;
         text-decoration: none;
         color: #BFBFBF;
         height: 60px;
     }
-    
+
     .gnav-bar a i {
         padding-top: 0px;
         display: block;
@@ -638,8 +634,8 @@ footer {
         font-weight: 600;
         letter-spacing: 2px;
     }
-        
-    .members p{
+
+    .members p {
         text-align: center;
         font-family: "Indie+Flower";
         font-size: 23px;
@@ -647,12 +643,12 @@ footer {
         color: black;
         margin-top: 20px;
     }
-        
+
     .members {
         text-align: center;
         padding: 120px 150px 150px 150px;
     }
-        
+
     .img-bg {
         text-align: center;
     }
@@ -660,17 +656,16 @@ footer {
     .photo {
         padding-top: 30px;
     }
-        
+
     .video {
         text-align: center;
     }
-    
+
     .video video {
         width: 50%;
     }
-    
-/*-----------------------------------------------------------------768px-MEDIA*/  
 
+    /*-----------------------------------------------------------------768px-MEDIA*/
     .background-media {
         background: url("../images/media/cassete.jpg");
         background-repeat: no-repeat;
@@ -681,44 +676,44 @@ footer {
         background-attachment: fixed;
     }
 
-    .albums{
+    .albums {
         text-align: right;
         width: 100%;
         padding-top: 200px;
         color: black;
-        }
-        
-    .albums img{
+    }
+
+    .albums img {
         border-radius: 50px;
         border: 1px solid #2A1A0B;
-    }   
-        
-    .albums audio{
+    }
+
+    .albums audio {
         width: 300px;
         height: 50px;
-    }  
-        
-    .album{
+    }
+
+    .album {
         text-align: right;
         width: 100%;
         padding-top: 50px;
         color: black;
     }
-        
-    .album img{
+
+    .album img {
         border-radius: 50px;
     }
-        
-    .album audio{
+
+    .album audio {
         width: 300px;
         height: 50px;
-    }    
-    
-    .tracks{
+    }
+
+    .tracks {
         text-align: left;
     }
 
-    .tracks p{
+    .tracks p {
         font-family: "Indie+Flower";
         font-weight: 500;
         font-size: 18px;
@@ -730,15 +725,14 @@ footer {
         color: black;
     }
 
-    .tracks audio{
+    .tracks audio {
         text-align: left;
         opacity: 0.5;
         position: relative;
         top: 50px;
     }
 
-/*-----------------------------------------------------------------768px-SHOWS*/  
-
+    /*-----------------------------------------------------------------768px-SHOWS*/
     .background-shows {
         background: url("../images/shows/showsbglg.jpg");
         background-repeat: no-repeat;
@@ -748,20 +742,20 @@ footer {
         background-size: 100%;
         background-attachment: fixed;
     }
-    
-    .shows{
+
+    .shows {
         padding-top: 10px;
     }
-    
-    .shows1{
+
+    .shows1 {
         text-align: right;
     }
-        
-    .shows img{
+
+    .shows img {
         height: 280px;
     }
-    
-    .shows2{
+
+    .shows2 {
         text-align: left;
         color: #EBF4EC;
         border-left: 3px solid;
@@ -769,24 +763,23 @@ footer {
         margin-left: 0px;
         margin-right: 0px;
     }
-        
-    .shows2 span{
+
+    .shows2 span {
         font-weight: 700;
         font-family: "Indie+Flower";
         font-size: 25px;
     }
-    
-    .monkees{
-        color:#EBF4EC;
+
+    .monkees {
+        color: #EBF4EC;
         text-align: center;
         padding-top: 150px;
         font-size: 40px;
         font-family: "Indie+Flower";
         font-weight: 600;
     }
-    
-/*-----------------------------------------------------------------768px-EVENT*/
 
+    /*-----------------------------------------------------------------768px-EVENT*/
     .background-event {
         background: url("../images/book/event1.jpg");
         background-repeat: no-repeat;
@@ -797,17 +790,17 @@ footer {
         background-attachment: fixed;
     }
 
-    .world{
+    .world {
         text-align: center;
         padding-top: 100px;
     }
-    
-    .world img{
+
+    .world img {
         max-width: 500px;
         opacity: 0.8;
     }
-    
-    .form{
+
+    .form {
         margin: auto;
         border-radius: 15px;
         background-color: #B2B2B2;
@@ -817,48 +810,47 @@ footer {
         font-weight: 600;
         font-size: 20px;
     }
-    
-    .space{
+
+    .space {
         padding-top: 0px;
     }
-    
-    .form td input, select,textarea{
+
+    .form td input,
+    select,
+    textarea {
         background-color: #B2B2B2;
         border-color: black;
         border-radius: 5px;
         border-top: none;
         border-bottom: none;
     }
-    
-    .form-table{
+
+    .form-table {
         margin-top: 20px;
     }
 
 
-/*----------------------------------------------------------------768px-FOOTER*/
-    
-    footer {
-        margin-top: 600px;
-    }
-    
-    .social{
-        margin-top: 400px;
+    /*----------------------------------------------------------------768px-FOOTER*/
+    footer {}
+
+    .social {
+
         margin-bottom: 20px;
     }
-    
-    .sociali{
+
+    .sociali {
         text-align: center;
-        color:  #BFBFBF;
+        color: #BFBFBF;
         font-size: 30px;
         text-decoration: none;
         letter-spacing: 20px;
     }
-    
-    .sociali a i{
-        color:  #BFBFBF;
-        }
-        
-    .socialc{
+
+    .sociali a i {
+        color: #BFBFBF;
+    }
+
+    .socialc {
         margin: auto;
         font-size: 12px;
         letter-spacing: normal;
