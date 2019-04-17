@@ -57,7 +57,6 @@
 }
 
 .menucontainer a span {
-    visibility: visible;
     display: block;
     width: 100%;
     padding-top: 0px;
@@ -77,9 +76,9 @@
 }
 
 .logo {
-    margin: 10px;
-    height: 53px;
-    
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 40px;
 }
 
 .logo-img {
@@ -90,15 +89,45 @@
     animation-iteration-count: 1;
     animation-direction: normal;
     background-color: black;
-    
 }
 
+.menuitem{
+    animation-name: growing;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    background-color: black;
+    text-align: left;
+    font-family: "Indie+Flower";
+    display: block;
+    width: 100%;
+    padding-top: 0px;
+    text-transform: uppercase;
+    color: #BFBFBF;
+}
+
+.menuitem i{
+    font-size: 50px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.menuitem span{
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    bottom: 11px;
+    position: relative;
+    
+}
 /*-----------------------------------------------------------------------INDEX*/
 
 .background-index {
-    background: url("../images/index-background.jpg");
+    background: url("../images/index-background.jpgggggg");
     background-repeat: no-repeat;
-    background-color: #000000;
+    background-color: black;
     height: 100%;
     width: 100%;
     background-size: 100%;
@@ -106,24 +135,29 @@
 
 .about {
     color: white;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-left: 25px;
-    padding-right: 65px;
-    margin-right: 0px;
+    padding-right: 25px;
+    
 }
 
 .about1 {
     color: #BFBFBF;
-    border-left-color: #BFBFBF;
-    border-left-style: double;
-    border-left-width: thick;
-    border-right: hidden;
-    padding-left: 25px;
-    padding-right: 25px;
     font-family: "Indie+Flower";
     font-size: 15px;
 }
 
+.band{
+    padding-top: 90px;
+    color: white;
+    font-family: "Indie+Flower";
+    font-size: 35px;
+    text-align: center;
+}
+
+.bandimg img{
+    width: 100%;
+}
 /*---------------------------------------------------------------------GALLERY*/
 
 .background-gallery {
@@ -160,14 +194,161 @@
     width: 100%;
 }
 
+
+
+/*----------------------------------------------------------------------TRACKS*/
+
+.background-media {
+    background: url("../images/media/cassete.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.album {
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    color: black;
+}
+
+.album img {
+    border-radius: 50px;
+    border: 1px solid #2A1A0B;
+}
+
+.album audio {
+    width: 230px;
+    height: 40px;
+}
+
+
+
+.tracks {
+    bottom: 20px;
+}
+
+.tracks p {
+    font-family: "Indie+Flower";
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    top: 35px;
+    z-index: 99;
+    color: black;
+}
+
+.tracks audio {
+    opacity: 0.5;
+    position: relative;
+}
+
 .video {
+    
+    padding-top: 40px;
     text-align: center;
 }
 
 .video video {
-    width: 50%;
+    border-radius: 20px;
+    width: 70%;
 }
 
+.videodesc p{
+    text-align: center;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.videodesc span{
+    text-align: center;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.viddesc{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*-----------------------------------------------------------------------SHOWS*/
+.background-shows {
+        background: url("../images/shows/showsbglg.jpg");
+        background-repeat: no-repeat;
+        background-color: #000000;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+    .shows-nz {
+        background-position: center;
+        background-image: url("../images/shows/newzeland.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+        
+    }
+    
+    .shows-au {
+        background-position: center center;
+        background-image: url("../images/shows/australia.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+    
+    .shows-usa {
+        background-position: center;
+        background-image: url("../images/shows/usa.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+
+    .shows2 {
+        text-align: center;
+        color: #EBF4EC;
+        border-left: 3px solid;
+        border-left-color: #EBF4EC;
+        
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0px;
+    }
+
+    .shows2 span {
+        font-weight: 700;
+        font-family: "Indie+Flower";
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .monkees {
+        color: #EBF4EC;
+        text-align: center;
+        padding-top: 120px;
+        font-size: 40px;
+        font-family: "Indie+Flower";
+        font-weight: 600;
+    }
+    
+    .monkees1 {
+        color: #EBF4EC;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 40px;
+        font-family: "Indie+Flower";
+        font-weight: 600;
+    }
 /*----------------------------------------------------------------------FOOTER*/
 
 .social {
@@ -203,4 +384,3 @@
         height: 70px;
     }
 }
-
