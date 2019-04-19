@@ -107,7 +107,7 @@
 /*-----------------------------------------------------------------------INDEX*/
 
 .background-index {
-    background: url("../images/index-background.jpgggggg");
+    background: url("../images/index/band3.jpg");
     background-repeat: no-repeat;
     background-color: black;
     height: 100%;
@@ -116,28 +116,109 @@
 }
 
 .about {
-    color: white;
-    padding-top: 100px;
+    background-color: black;
+    padding-top: 50px;
     padding-left: 25px;
     padding-right: 25px;
+
 }
 
-.about1 {
+.about2 {
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about1 p {
+    text-align: center;
     color: #BFBFBF;
     font-family: "Indie+Flower";
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about1 p span {
+    text-align: center;
+    color: #88B6E8;
+    font-family: "Indie+Flower";
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.crue p span {
+    text-align: center;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.crue p {
+    text-align: center;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
 }
 
 .band {
-    padding-top: 90px;
-    color: white;
-    font-family: "Indie+Flower";
-    font-size: 35px;
+    background-image: url("../images/index/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 80px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.bandimg {
+    background-image: url("../images/index/themonkees.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+
+}
+
+.crueimg {
+    background-image: url("../images/index/indexband1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.cruebg {
+    background-color: black;
+}
+
+.apps {
+    background-color: #980000;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: center;
 }
 
-.bandimg img {
-    width: 100%;
+.appfeature {
+    text-align: center;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.appdesc {
+    background-color: #980000;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-size: 18px;
+    line-height: 20px;
 }
 
 /*-----------------------------------------------------------------------INDEX*/
@@ -145,7 +226,7 @@
 /*---------------------------------------------------------------------GALLERY*/
 
 .background-gallery {
-    background: url("../images/gallery/mgalleryback.jpg");
+    background: url("../images/gallery/gallery.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
     height: 100%;
@@ -159,7 +240,7 @@
     font-family: "Indie+Flower";
     font-size: 23px;
     font-weight: 700;
-    color: black;
+    color: white;
     margin-top: 20px;
 }
 
@@ -170,11 +251,14 @@
 
 .img-bg {
     text-align: center;
+}
 
+.img-bg img {
+    width: 350px;
 }
 
 .photo {
-    padding: 30px;
+    padding-top: 20px;
     width: 100%;
 }
 
@@ -183,7 +267,7 @@
 /*----------------------------------------------------------------------TRACKS*/
 
 .background-media {
-    background: url("../images/media/tracks.jpg");
+    background: url("../images/media/tracks1.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
     height: 100%;
@@ -201,11 +285,12 @@
 
 .album img {
     border-radius: 50px;
-    
+    width: 350px;
+
 }
 
 .album audio {
-    width: 230px;
+    width: 350px;
     height: 40px;
 }
 
@@ -235,14 +320,14 @@
 
 .video video {
     border-radius: 20px;
-    width: 70%;
+    width: 90%;
 }
 
 .videodesc p {
     text-align: center;
     color: white;
     font-family: "Indie+Flower";
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
 }
 
@@ -250,7 +335,7 @@
     text-align: center;
     color: white;
     font-family: "Indie+Flower";
-    font-weight: 700;
+    font-weight: 600;
     font-size: 17px;
 }
 
@@ -303,7 +388,6 @@
     color: #EBF4EC;
     border-left: 3px solid;
     border-left-color: #EBF4EC;
-
     margin-left: 0px;
     margin-right: 0px;
     padding-top: 0px;
@@ -360,6 +444,7 @@
 }
 
 .form {
+    
     color: white;
     margin: 0px;
     background-color: black;
@@ -376,6 +461,10 @@
     padding-bottom: 20px;
     text-align: center;
 
+}
+
+.form td{
+    padding-left: 10px;
 }
 
 .form input,
