@@ -6,6 +6,10 @@ header{
     background-color: black;
 }
 
+body{
+    background-color: black;
+}
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -82,33 +86,42 @@ header{
     animation-iteration-count: 1;
     animation-direction: normal;
     background-color: black;
-    text-align: left;
+    text-align: center;
     font-family: "Indie+Flower";
     display: block;
     width: 100%;
     padding-top: 0px;
     text-transform: uppercase;
     color: #BFBFBF;
+    
 }
 
 .menuitem i {
-    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
     padding-top: 12px;
-    padding-left: 12px;
+    color: #BFBFBF;
+}
+
+.menuitem a {
+    text-decoration: none;
 }
 
 .menuitem span {
-    padding-left: 20px;
+    display: block;
+    width: 100%;
+    padding-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
     font-weight: 600;
-    font-size: 20px;
-    bottom: 11px;
-    position: relative;
+    letter-spacing: 2px;
+    color: #BFBFBF;
 }
 
 /*----------------------------------------------------------------------HEADER*/
-section{
-    background-color: black;
-}
+
 /*-----------------------------------------------------------------------INDEX*/
 
 .background-index {
@@ -250,7 +263,7 @@ section{
 
 .members {
     text-align: center;
-    padding-top: 140px;
+    padding-top: 150px;
 }
 
 .img-bg {
@@ -283,7 +296,7 @@ section{
 .album {
     text-align: center;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 150px;
     color: black;
 }
 
@@ -298,18 +311,11 @@ section{
     height: 40px;
 }
 
-.tracks {
-    bottom: 20px;
-}
-
 .tracks p {
     font-family: "Indie+Flower";
     font-weight: 500;
-    font-size: 16px;
-    position: relative;
-    top: 35px;
-    z-index: 99;
-    color: black;
+    font-size: 36px;
+    color: white;
 }
 
 .tracks audio {
@@ -407,7 +413,7 @@ section{
 .monkees {
     color: #EBF4EC;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 140px;
     font-size: 40px;
     font-family: "Indie+Flower";
     font-weight: 600;
@@ -437,7 +443,7 @@ section{
 }
 
 .world {
-    padding-top: 100px;
+    padding-top: 150px;
     text-align: center;
 }
 
@@ -493,12 +499,9 @@ textarea {
 footer{
     background-color: black;
 }
-.social {
-    
-    margin-bottom: 20px;
-}
 
 .sociali {
+    margin-top: 50px;
     text-align: center;
     color: #BFBFBF;
     font-size: 30px;
@@ -515,6 +518,7 @@ footer{
     font-size: 12px;
     letter-spacing: normal;
     padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 /*----------------------------------------------------------------------FOOTER*/
