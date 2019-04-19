@@ -2,6 +2,9 @@
 
 
 /*----------------------------------------------------------------------HEADER*/
+header{
+    background-color: black;
+}
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -103,20 +106,19 @@
 }
 
 /*----------------------------------------------------------------------HEADER*/
-
+section{
+    background-color: black;
+}
 /*-----------------------------------------------------------------------INDEX*/
 
 .background-index {
-    background: url("../images/index/band3.jpg");
+    background-image: url("../images/index/band3.jpg");
     background-repeat: no-repeat;
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    background-size: 100%;
+    height: 280px;
+    background-size: cover;
 }
 
 .about {
-    background-color: black;
     padding-top: 50px;
     padding-left: 25px;
     padding-right: 25px;
@@ -124,7 +126,6 @@
 }
 
 .about2 {
-    background-color: black;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -167,13 +168,10 @@
 }
 
 .band {
-    background-image: url("../images/index/logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 80px;
-    height: 180px;
-    margin-bottom: 10px;
+    padding-top: 100px;
+    text-align: center;
+    
+ 
 }
 
 .bandimg {
@@ -182,6 +180,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     height: 200px;
+    margin: auto;
 
 }
 
@@ -194,11 +193,8 @@
     margin-top: 20px;
 }
 
-.cruebg {
-    background-color: black;
-}
-
 .apps {
+    margin-top: 60px;
     background-color: #980000;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -206,6 +202,9 @@
 }
 
 .appfeature {
+   
+    padding-top: 60px;
+    padding-bottom: 50px;
     text-align: center;
     color: #BFBFBF;
     font-family: "Indie+Flower";
@@ -219,6 +218,11 @@
     font-family: "Indie+Flower";
     font-size: 18px;
     line-height: 20px;
+    margin: auto;
+}
+
+.appdesc p {
+    margin: auto;
 }
 
 /*-----------------------------------------------------------------------INDEX*/
@@ -349,7 +353,7 @@
 /*-----------------------------------------------------------------------SHOWS*/
 
 .background-shows {
-    background: url("../images/shows/showsbgsm.jpg");
+    background: url("../images/shows/showsbg.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
     height: 100%;
@@ -435,7 +439,6 @@
 .world {
     padding-top: 100px;
     text-align: center;
-
 }
 
 .world img {
@@ -444,7 +447,6 @@
 }
 
 .form {
-    
     color: white;
     margin: 0px;
     background-color: black;
@@ -488,8 +490,11 @@ textarea {
 /*------------------------------------------------------------------------BOOK*/
 
 /*----------------------------------------------------------------------FOOTER*/
-
+footer{
+    background-color: black;
+}
 .social {
+    
     margin-bottom: 20px;
 }
 
