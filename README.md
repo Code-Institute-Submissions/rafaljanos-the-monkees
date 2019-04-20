@@ -23,13 +23,12 @@ singer Davy Jones.
 Desktop and Mobile compatybility on:
 - [x] Chrome
 - [x] Microsoft Edge
-- [ ] Opera
-- [ ] Firefox
-- [ ] Mozzila
+- [x] Opera
+- [x] Firefox
 
 Validation:
 - [x] CSS Validation Tool
-- [ ] HTML validation Tool
+- [x] HTML validation Tool
 
 Form:
 - [x] Submit the empty form and verify that an error
@@ -41,7 +40,7 @@ Form:
 
 ### Focuseed on:
 
-- Mobile first approach
+- Mobile approach
 - Maximum  of 5 pages
 - Easy navigation
 - Modern design
@@ -62,27 +61,32 @@ All photos and backgrounds ware edited using Corel Photo-Paint:
 - YouTube Tutorials
 - Several Coding Forums
 - Wikipedia
+- Mentor
 
-## Project Check List
+### Project Check List
 
 - [x] Readme File
 
 
 
 Desktop 100% Finished
-- [ ] Index Page
-- [ ] Gallery Page
-- [ ] Tracks Page
-- [ ] Shows Page
-- [ ] Book Page
+- [x] Home Page
+- [x] Gallery Page
+- [x] Tracks Page
+- [x] Shows Page
+- [x] Book Page
 
 Mobile 100% Finished
-- [ ] Index Page
-- [ ] Gallery Page
-- [ ] Tracks Page
-- [ ] Shows Page
-- [ ] Book Page
+- [x] Index Page
+- [x] Gallery Page
+- [x] Tracks Page
+- [x] Shows Page
+- [x] Book Page
 
-## Author
+### Viewing Instruction
+
+ [Click To View My Page](https://rafaljanos.github.io/the-monkees/)
+
+### Author
 
 Rafal Janowski

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style2.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Monkees</title>
 </head>
 
 <body class="background-event">
     <header>
-            <div class="container-fluid">
-                <nav class="navigation">
+        <div class="container-fluid">
+            <nav class="navigation">
                 <div class="row no-gutters">
                     <div class="col-12 col-md-4  menuitem">
-                        <a href="index2.html" class="hvr-grow-shadow"><i class="fas fa-home"></i><span>home</span></a>
+                        <a href="index.html" class="hvr-grow-shadow"><i class="fas fa-home"></i><span>home</span></a>
                     </div>
                     <div class="col-3 col-md-2 menucontainer list-inline-item">
                         <a href="gallery.html" class="hvr-grow-shadow"><i class="fas fa-camera"></i><span>gallery</span></a>
@@ -36,96 +36,122 @@
                     </div>
                 </div>
             </nav>
-            </div>
-        </header>
+        </div>
+    </header>
     <section class="coteiner-fluid">
         <div class="row no-gutters world">
             <div class="col-12">
-                <img src="assets/images/book/world1.png">
+                <img src="assets/images/book/world1.png" alt="photo">
             </div>
         </div>
-        <div class="row no-gutters form-table">
-            <div class="d-none d-md-block col-md-3 col-xl-4"></div>
-            <div class="col-md-6 col-xl-4 form">
-                <form action="https://ptsv2.com/t/9mbjw-1519746391/post" method="post">
-                    <table>
-                        <tr>
-                            <td width="60%"><label for="name">Your Name</label></td>
-                            <td width="50%"><input type="name" id="name" placeholder="Name" class="inputfield" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="surname">Your Surname</label></td>
-                            <td><input type="surname" id="surname" placeholder="Surname" class="inputfield" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="number">Your Telephone</label></td>
-                            <td><input type="number" id="number" placeholder="Number" class="inputfield" required></td>
-                        </tr>
-                        <tr>
-                            <td><label for="gender" required>Your Gender</label></td>
-                            <td>
-                                <select>
-                                        <option selected></option>
-                                        <option>Female</option>
-                                        <option>Male</option>
-                                    </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><label for="email">Your Email Adress</label></td>
-                            <td><input type="email" id="email" placeholder="Email" class="inputfield" required></td>
-                        </tr>
-                        <tr>
-                            <div>
-                                <td>Adress of Venue</td>
-                            </div>
-                            <td><textarea rows="6" cols="22" placeholder="Adress" class="inputfield" required></textarea></td>
-                        </tr>
-                        <tr>
-                            <td>Type of venue</td>
-                        </tr>
-                        <tr>
-                            <td><input id="aaa" type="checkbox" name="type">Authograph</td>
-                        </tr>
-                        <tr>
-                            <td><input id="aaa" type="checkbox" name="type" value="dfsd">Photoshot</td>
-                        </tr>
-                        <tr>
-                            <td><input id="aaa" type="checkbox" name="type" value="dfsd">Concert</td>
-                        </tr>
-                        <tr>
-                            <td><input id="aaa" type="checkbox" name="type" value="dfsd">Wedding</td>
-                        </tr>
-                        <tr>
-                            <td><input id="aaa" type="checkbox" name="type" value="dfsd">Private</td>
-                        </tr>
-                        <tr>
-                            <td><input id="aaa" type="checkbox" name="type" value="dfsd">Charity</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="space">
-                                    <button type="submit" class="btn btn-warning">Submit</button>
-                            </td>
-                        </tr>
-                    </table>
-                </form>
+        <form action="https://ptsv2.com/t/9mbjw-1519746391/post" method="post">
+        <div class="row no-gutters ">
+            <div class="d-none d-md-block col-md-3"></div>
+            <div class="col-12 col-md-6 form">
+                <div class="row no-gutters rows">
+                    <div class="col-4 labels">
+                        <label for="name"> Name</label>
+                    </div>
+                    <div class="col-8 aplication">
+                        <input type="text" id="name" placeholder="Name" class="inputfield" required>
+                    </div>
+                </div>
+                <div class="row no-gutters rows">
+                    <div class="col-4 labels ">
+                        <label for="surname"> Surname</label>
+                    </div>
+                    <div class="col-8 aplication">
+                        <input type="text" id="surname" placeholder="Surname" class="inputfield" required>
+                    </div>
+                </div>
+                <div class="row no-gutters rows">
+                    <div class="col-4 labels ">
+                        <label for="number"> Telephone</label>
+                    </div>
+                    <div class="col-8 aplication">
+                        <input type="number" id="number" placeholder="Number" class="inputfield" required>
+                    </div>
+                </div>
+                <div class="row no-gutters rows">
+                    <div class="col-4 labels ">
+                        <label>Gender</label>
+                    </div>
+                    <div class="col-8 aplication">
+                        <select>
+                            <option></option>
+                            <option>Female</option>
+                            <option>Male</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row no-gutters rows">
+                    <div class="col-4 labels ">
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="col-8 aplication">
+                        <input type="email" id="email" placeholder="Email" class="inputfield" required>
+                    </div>
+                </div>
+                <div class="row no-gutters rows">
+                    <div class="col-12 venuetype ">
+                        Address
+                    </div>
+                </div>    
+                 <div class="row no-gutters rows">    
+                    <div class="col-12 venuetype">
+                        <textarea rows="4" cols="39" placeholder="Address" class="inputfield" required></textarea>
+                    </div>
+                </div>
+                <div class="row no-gutters rows">
+                    <div class="col-12 venuetype ">
+                        Type of venue
+                    </div>
+                </div>
+                <div class="row no-gutters rows">
+                    <div class="col-4 labels ">
+                        <input type="checkbox" name="type">Autographs
+                    </div>
+                    <div class="col-4 labels">
+                        <input type="checkbox" name="type" value="dfsd">Photoshoot
+                    </div>
+                    <div class="col-4 labels ">
+                        <input type="checkbox" name="type" value="dfsd">Concert
+                    </div>
+                </div>
+                <div class="row no-gutters rows">
+                    <div class="col-4 labels">
+                        <input type="checkbox" name="type" value="dfsd">Wedding
+                    </div>
+                    <div class="col-4 labels ">
+                        <input type="checkbox" name="type" value="dfsd">Private
+                    </div>
+                    <div class="col-4 labels">
+                        <input type="checkbox" name="type" value="dfsd">Charity
+                    </div>
+                </div>
+                <div class="row no-gutters submit rows">
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </div>
+                </div>
             </div>
-            <div class="d-none d-md-block col-md-3 col-xl-4"></div>
+            <div class="d-none d-md-block col-md-3"></div>
         </div>
+        </form>
     </section>
     <footer class="social">
-        <div class="row no-gutters sociali">
+        <div class="row sociali no-gutters">
             <div class="col-12">
-                <a href="https://www.facebook.com/TheMonkees/" class="hvr-grow-shadow" target="blanc"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://twitter.com/themonkeestour?lang=en" class="hvr-grow-shadow" target="blanc"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.youtube.com/user/themonkees" class="hvr-grow-shadow" target="blanc"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/TheMonkees/" class="hvr-grow-shadow" target="blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/themonkeestour?lang=en" class="hvr-grow-shadow" target="blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/user/themonkees" class="hvr-grow-shadow" target="blank"><i class="fab fa-youtube"></i></a>
             </div>
-            <div class="row socialc">
+            <div class="row socialc no-gutters">
                 <div class="col-12">
                     <i class="fas fa-copyright"></i> Rafal Janowski
                 </div>
+            </div>
+        </div>    
     </footer>
 </body>
-
 </html>

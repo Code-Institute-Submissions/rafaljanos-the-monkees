@@ -1,419 +1,431 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
 
-/*-------------------------------------------------------------------------NEW*/
-/*---------------------------------------------------------------------COLOURS*/
+/*----------------------------------------------------------------------HEADER*/
 
-.ui-menu-color-gallery {
-    background-color: white;
-}
-.ui-menu-color-tracks{
-    background-color: red;
-}
-.ui-menu-color-shows{
-    background-color: orange;
-}
-.ui-menu-color-book{
-    background-color: yellow;
+header {
+    background-color: black;
 }
 
-/*----------------------------------------------------------------------HEDDER*/
-.list-inline-item:not(:last-child){
+body {
+    background-color: black;
+}
+
+.list-inline-item:not(:last-child) {
     margin: 0;
-    
 }
-.menucontainer{
-    font-size: 0;
-    
-}
-.container-fluid{
+
+.container-fluid {
     padding: 0px;
 }
-/*-------------------------------------------------------------------------NEW*/
 
-.list-inline {
-    font-family: "Indie+Flower";
-    font-weight: 200;
-    font-size: 30px;
-}
-
-.members-name {
-    color: black;
+.menucontainer {
+    animation-name: growing;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    background-color: black;
     text-align: center;
+    font-family: "Indie+Flower";
 }
 
-.breake {
-    min-height: 100px;
+.menucontainer a {
+    width: 100%;
+    text-decoration: none;
+    color: #BFBFBF;
+    height: 0px;
 }
 
-
-
-
-
-
-.background-shows {
-    background-color: #68BBB8;
+.menucontainer a i {
+    padding-top: 0px;
+    color: #BFBFBF;
+    font-size: 28px;
 }
 
+.menucontainer a span {
+    display: block;
+    width: 100%;
+    padding-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
 
+.navigation {
 
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    opacity: 0.8;
+}
 
+.logo {
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 40px;
+}
 
+.logo-img {
+    animation-name: growing;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    background-color: black;
+}
 
-.background-gallery {
-    background-color: #FF91BB;
+.menuitem {
+    animation-name: growing;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    background-color: black;
+    text-align: center;
+    font-family: "Indie+Flower";
+    display: block;
+    width: 100%;
+    padding-top: 0px;
+    text-transform: uppercase;
+    color: #BFBFBF;
+}
+
+.menuitem i {
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    padding-top: 12px;
+    color: #BFBFBF;
+}
+
+.menuitem a {
+    text-decoration: none;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #BFBFBF;
+}
+
+/*----------------------------------------------------------------------HEADER*/
+
+/*------------------------------------------------------------------------HOME*/
+
+.background-index {
+    background-image: url("../images/index/band3.jpg");
+    background-repeat: no-repeat;
+    height: 280px;
     background-size: cover;
 }
 
-.background-book {
-    background-color: #F5855B;
+.about {
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 120px) {
-
-    .background-index {
-        background: url("../images/mobileb.png");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: auto;
-    }
-
-    .nav-logo {}
-
-    .logo-img {
-        background-color: #9B9B99;
-        animation-name: growing;
-        animation-duration: 1s;
-        animation-timing-function: ease-in;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
-        animation-direction: normal;
-
-    }
-
-    .logo-img:hover {
-        background-image: url("../images/logo-mobileh.png");
-    }
-
-    .navigation {
-        position: fixed;
-        width: 100%;
-        z-index: 99;
-        opacity: 0.8;
-    }
-
-    .nav {
-        background-color: #9B9B99;
-        animation-name: growing;
-        animation-duration: 1s;
-        animation-timing-function: ease-in;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
-        animation-direction: normal;
-    }
-
-    .nav-bar a i {
-        margin-top: 10px;
-        color: #282828;
-        font-size: 25px;
-    }
-
-    .nav-bar a span {
-        visibility: hidden;
-        display: block;
-
-    }
-
-    .about {
-        color: white;
-        padding-top: 80px;
-        padding-left: 25px;
-        padding-right: 0px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .about1 {
-        font-size: 12px;
-        color: #9B9B99;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 60px;
-    }
-
-    /*---------------------------------------------------------------320px-GALLERY*/
-    .background-gallery {
-        background: url("../images/gallery/mgalleryback.jpg");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: 100%;
-        background-attachment: fixed;
-    }
-
-    .img-bg {
-        text-align: center;
-    }
-
-    .img-bg img {
-        width: 80%;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .gnav-logo {
-        height: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-    }
-
-    .glogo-img {
-        background-color: #020202;
-        animation-name: growing;
-        animation-duration: 1s;
-        animation-timing-function: ease-in;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
-        animation-direction: normal;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        background-image: url("../images/logo-m.png");
-        height: 30px;
-
-    }
-
-    .gnav-bar a i {
-        margin-top: 5px;
-        color: #BFBFBF;
-        font-size: 18px;
-    }
-
-    .gnav-bar a span {
-        visibility: hidden;
-        display: block;
-        text-transform: uppercase;
-        width: 100%;
-        padding-top: 5px;
-        text-align: center;
-        font-weight: 300;
-        letter-spacing: 3px;
-    }
-
-    .gnav {
-        background-color: #020202;
-        animation-name: growing;
-        animation-duration: 1s;
-        animation-timing-function: ease-in;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
-        animation-direction: normal;
-        height: 30px;
-
-        padding-left: 0px;
-        margin-right: 0px;
-        text-align: left;
-    }
-
-    .members p {
-        text-align: center;
-        font-family: "Indie+Flower";
-        font-size: 23px;
-        font-weight: 700;
-        color: #9B9B99;
-        margin-top: 20px;
-    }
-
-    .members {
-        text-align: center;
-        padding-top: 100px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    /*-----------------------------------------------------------------320px-MEDIA*/
-    .video {
-        text-align: center;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-
-    .video video {
-        width: 80%;
-        border-radius: 50px;
-        border: 1px solid #2A1A0B;
-    }
-
-    .background-media {
-        background: url("../images/media/cassetem.jpg");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: 100%;
-        background-attachment: fixed;
-    }
-
-    .albums {
-        text-align: center;
-        width: 100%;
-        padding-top: 100px;
-        color: black;
-    }
-
-    .albums img {
-        border-radius: 30px;
-        border: 1px solid #2A1A0B;
-    }
-
-    .albums audio {
-        width: 230px;
-        height: 30px;
-    }
-
-    .album {
-        text-align: center;
-        width: 100%;
-        padding-top: 70px;
-        color: black;
-    }
-
-    .album img {
-        border-radius: 30px;
-    }
-
-    .album audio {
-        width: 230px;
-        height: 30px;
-    }
-
-    .tracks {
-        text-align: center;
-        margin-top: -20px;
-    }
-
-    .tracks p {
-        color: #999187;
-        font-family: "Indie+Flower";
-        font-weight: 700;
-        font-size: 18px;
-        text-align: center;
-        padding-top: 30px;
-        position: relative;
-        top: 15px;
-    }
-
-    .tracks audio {
-        text-align: center;
-        opacity: 0.5;
-        position: relative;
-        top: 0px;
-    }
-
-    /*-----------------------------------------------------------------320px-SHOWS*/
-    .background-shows {
-        background: url("../images/shows/showsbgsm.jpg");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: 100%;
-        background-attachment: fixed;
-    }
-
-    .shows {
-        padding-top: 10px;
-    }
-
-    .shows1 {
-        text-align: center;
-    }
-
-    .shows img {
-        margin-top: 30px;
-        height: 80px;
-    }
-
-    .shows2 {
-        margin-top: 0px;
-        color: #EBF4EC;
-        text-align: center;
-        font-size: 13px;
-    }
-
-    .shows2 span {
-        font-weight: 700;
-        font-family: "Indie+Flower";
-        font-size: 19px;
-        letter-spacing: 2px;
-    }
-
-    .monkees {
-        margin: auto;
-        color: #EBF4EC;
-        text-align: center;
-        padding-top: 100px;
-        font-size: 25px;
-        font-family: "Indie+Flower";
-        font-weight: 600;
-    }
-
-    /*----------------------------------------------------------------320px-FOOTER*/
-    footer {
-        padding-top: 100px;
-        margin: auto;
-    }
-    .social {
-        margin: auto;
-    }
-
-    .sociali {
-        text-align: center;
-        color: #BFBFBF;
-        font-size: 22px;
-        text-decoration: none;
-        letter-spacing: 20px;
-    }
-
-    .sociali a i {
-        color: #BFBFBF;
-    }
-
-    .socialc {
-        margin: auto;
-        font-size: 12px;
-        letter-spacing: normal;
-        padding-top: 70px;
-    }
+.about2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-@keyframes growing {
-    from {
-        height: 0;
-    }
-    to {
-        height: 40px;
-    }
+.about1 p {
+    text-align: center;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-/*-----------------------------------------------------------------320px-EVENT*/
+.about1 p span {
+    text-align: center;
+    color: #88B6E8;
+    font-family: "Indie+Flower";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.crue p span {
+    text-align: center;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.crue p {
+    text-align: center;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.band {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.bandimg {
+    background-image: url("../images/index/themonkees.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    margin: auto;
+}
+
+.crueimg {
+    background-image: url("../images/index/indexband1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.apps {
+    margin-top: 60px;
+    background-color: #980000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.appfeature {
+
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.appdesc {
+    background-color: #980000;
+    color: #BFBFBF;
+    font-family: "Indie+Flower";
+    font-size: 18px;
+    line-height: 20px;
+    margin: auto;
+}
+
+.appdesc p {
+    margin: auto;
+}
+
+/*------------------------------------------------------------------------HOME*/
+
+/*---------------------------------------------------------------------GALLERY*/
+
+.background-gallery {
+    background: url("../images/gallery/gallery.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.members p {
+    text-align: center;
+    font-family: "Indie+Flower";
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+}
+
+.members {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.img-bg {
+    text-align: center;
+}
+
+.img-bg img {
+    width: 350px;
+}
+
+.photo {
+    padding-top: 20px;
+    width: 100%;
+}
+
+/*---------------------------------------------------------------------GALLERY*/
+
+/*----------------------------------------------------------------------TRACKS*/
+
+.background-media {
+    background: url("../images/media/tracks1.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.album {
+    text-align: center;
+    width: 100%;
+    padding-top: 150px;
+    color: black;
+}
+
+.album img {
+    border-radius: 50px;
+    width: 350px;
+}
+
+.album audio {
+    width: 350px;
+    height: 40px;
+}
+
+.tracks p {
+    font-family: "Indie+Flower";
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+}
+
+.tracks audio {
+    opacity: 0.5;
+    position: relative;
+}
+
+.video {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.video video {
+    border-radius: 20px;
+    width: 80%;
+}
+
+.videodesc p {
+    text-align: center;
+    color: white;
+    font-family: "Indie+Flower";
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.videodesc span {
+    text-align: center;
+    color: white;
+    font-family: "Indie+Flower";
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.viddesc {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*----------------------------------------------------------------------TRACKS*/
+
+/*-----------------------------------------------------------------------SHOWS*/
+
+.background-shows {
+    background: url("../images/shows/showsbg.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.shows-nz {
+    background-position: center;
+    background-image: url("../images/shows/newzeland.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.shows-au {
+    background-position: center center;
+    background-image: url("../images/shows/australia.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.shows-usa {
+    background-position: center;
+    background-image: url("../images/shows/usa.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.shows2 {
+    text-align: center;
+    color: #EBF4EC;
+    border-left: 3px solid;
+    border-left-color: #EBF4EC;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+}
+
+.shows2 span {
+    font-weight: 700;
+    font-family: "Indie+Flower";
+    font-size: 25px;
+    text-align: center;
+}
+
+.monkees {
+    color: #EBF4EC;
+    text-align: center;
+    padding-top: 140px;
+    font-size: 40px;
+    font-family: "Indie+Flower";
+    font-weight: 600;
+}
+
+.monkees1 {
+    color: #EBF4EC;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: "Indie+Flower";
+    font-weight: 600;
+}
+
+/*-----------------------------------------------------------------------SHOWS*/
+
+/*------------------------------------------------------------------------BOOK*/
 
 .background-event {
-    background: url("../images/book/eventm.jpg");
+    background: url("../images/book/eventblur.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
     height: 100%;
@@ -423,437 +435,103 @@
 }
 
 .world {
+    padding-top: 150px;
+    padding-bottom: 20px;
     text-align: center;
-    padding-top: 100px;
 }
 
 .world img {
-    max-width: 300px;
+    height: 150px;
     opacity: 0.8;
+}
+
+.aplication input {
+    width: 220px;
+}
+
+.check {
+    text-align: center;
+}
+
+.labels {
+    font-size: 15px;
+    font-family: "Indie+Flower";
+    font-weight: 600;
+    border-left: 5px solid transparent;
+}
+
+.labels input {
+    width: 20px;
+}
+
+.venuetype {
+    font-size: 15px;
+    font-family: "Indie+Flower";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.submit {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .form {
+    border-radius: 5px;
+    max-width: 350px;
     margin: auto;
-    border-radius: 15px;
-    background-color: #B2B2B2;
-    opacity: 0.8;
-    max-width: 300px;
-    font-family: "Indie+Flower";
-    font-weight: 600;
-    font-size: 15px;
+    background-color: #C1C1C0;
 }
 
-.inputfield {
-    width: 150px;
-
-}
-
-.space {
-    padding-bottom: 10px;
+.form row {
     padding-top: 10px;
 }
 
-.form td input,
-select,
-textarea {
-    background-color: #B2B2B2;
-    border-color: black;
-    border-radius: 5px;
-    border-top: none;
-    border-bottom: none;
+.rows {
+    padding-top: 10px;
 }
 
-.form-table {
-    margin-top: 20px;
+/*------------------------------------------------------------------------BOOK*/
+
+/*----------------------------------------------------------------------FOOTER*/
+
+footer {
+    background-color: black;
 }
 
-/*-----------------------------------------------------------------------768px*/
+.sociali {
+    margin-top: 50px;
+    text-align: center;
+    color: #BFBFBF;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 20px;
+}
 
-@media (min-width: 768px) {
-    .nav {
-        opacity: 1;
-        background-color: transparent;
-        animation-name: none;
-        margin-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+.sociali a i {
+    color: #BFBFBF;
+}
+
+.socialc {
+    margin: auto;
+    font-size: 12px;
+    letter-spacing: normal;
+    padding-bottom: 10px;
+}
+
+/*----------------------------------------------------------------------FOOTER*/
+
+/*-------------------------------------------------------------------ANIMATION*/
+
+@keyframes growing {
+    from {
+        height: 0;
     }
-
-    .nav-logo {
-        margin-top: 0px;
-        margin-left: 30px;
-    }
-
-    .nav-gallery {
-        text-align: center;
-        font-family: "Indie+Flower";
-        font-size: 40px;
-    }
-
-    .nav-bar {
-        display: inline-block;
-
-        font-family: "Indie+Flower";
-        font-size: 25px;
-    }
-
-    .nav-bar a {
-        width: 100%;
-        text-decoration: none;
-        color: #BFBFBF;
-        height: 120px;
-    }
-
-    .nav-bar a i {
-        padding-top: 0px;
-
-        color: #BFBFBF;
-        font-size: 28px;
-    }
-
-    .nav-bar a span {
-        visibility: visible;
-
-        width: 100%;
-        padding-top: 5px;
-
-        text-transform: uppercase;
-        font-size: 12px;
-        font-weight: 600;
-        letter-spacing: 2px;
-    }
-
-    .logo-img {
-        background-color: transparent;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: left;
-        background-image: url("../images/logo.png");
-        width: 100px;
-        height: 60px;
-    }
-
-    .about {
-        color: white;
-        padding-top: 200px;
-        padding-left: 25px;
-        padding-right: 65px;
-        margin-right: 0px;
-    }
-
-    .about1 {
-        color: #BFBFBF;
-        border-left-color: #BFBFBF;
-        border-left-style: double;
-        border-left-width: thick;
-        border-right: hidden;
-        padding-left: 25px;
-        padding-right: 25px;
-        font-family: "Indie+Flower";
-        font-size: 15px;
-    }
-
-    .background-index {
-        background: url("../images/index-background.jpg");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: 100%;
-    }
-
-    /*---------------------------------------------------------------768px-GALLERY*/
-    .background-gallery {
-        background: url("../images/gallery/galleryback.jpg");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: 100%;
-        background-attachment: fixed;
-    }
-
-    .navigation {
-        position: fixed;
-        width: 100%;
-        z-index: 99;
-        opacity: 0.8;
-    }
-
-    .gnav {
-        opacity: 1;
-        background-color: black;
-        animation-name: none;
-        margin-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .glogo-img {
-        height: 60px;
-        background-position: left;
-    }
-
-    .gnav-logo {
-        background-color: black;
-        height: 90px;
-        margin-top: 0px;
-        margin-left: 0px;
-        padding-left: 20px;
-        top: 0px;
-    }
-
-    .gnav-bar {
-        text-align: center;
-        font-family: "Indie+Flower";
-        font-size: 25px;
-    }
-
-    .gnav-bar a {
-        width: 100%;
-        text-decoration: none;
-        color: #BFBFBF;
-        height: 60px;
-    }
-
-    .gnav-bar a i {
-        padding-top: 0px;
-        display: block;
-        color: #BFBFBF;
-        font-size: 28px;
-    }
-
-    .gnav-bar a span {
-        visibility: visible;
-        display: block;
-        width: 100%;
-        padding-top: 5px;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 12px;
-        font-weight: 600;
-        letter-spacing: 2px;
-    }
-
-    .members p {
-        text-align: center;
-        font-family: "Indie+Flower";
-        font-size: 23px;
-        font-weight: 700;
-        color: black;
-        margin-top: 20px;
-    }
-
-    .members {
-        text-align: center;
-        padding: 120px 150px 150px 150px;
-    }
-
-    .img-bg {
-        text-align: center;
-    }
-
-    .photo {
-        padding-top: 30px;
-    }
-
-    .video {
-        text-align: center;
-    }
-
-    .video video {
-        width: 50%;
-    }
-
-    /*-----------------------------------------------------------------768px-MEDIA*/
-    .background-media {
-        background: url("../images/media/cassete.jpg");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: 100%;
-        background-attachment: fixed;
-    }
-
-    .albums {
-        text-align: right;
-        width: 100%;
-        padding-top: 200px;
-        color: black;
-    }
-
-    .albums img {
-        border-radius: 50px;
-        border: 1px solid #2A1A0B;
-    }
-
-    .albums audio {
-        width: 300px;
-        height: 50px;
-    }
-
-    .album {
-        text-align: right;
-        width: 100%;
-        padding-top: 50px;
-        color: black;
-    }
-
-    .album img {
-        border-radius: 50px;
-    }
-
-    .album audio {
-        width: 300px;
-        height: 50px;
-    }
-
-    .tracks {
-        text-align: left;
-    }
-
-    .tracks p {
-        font-family: "Indie+Flower";
-        font-weight: 500;
-        font-size: 18px;
-        position: relative;
-        top: 90px;
-        left: 20px;
-        z-index: 99;
-        text-align: left;
-        color: black;
-    }
-
-    .tracks audio {
-        text-align: left;
-        opacity: 0.5;
-        position: relative;
-        top: 50px;
-    }
-
-    /*-----------------------------------------------------------------768px-SHOWS*/
-    .background-shows {
-        background: url("../images/shows/showsbglg.jpg");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: 100%;
-        background-attachment: fixed;
-    }
-
-    .shows {
-        padding-top: 10px;
-    }
-
-    .shows1 {
-        text-align: right;
-    }
-
-    .shows img {
-        height: 280px;
-    }
-
-    .shows2 {
-        text-align: left;
-        color: #EBF4EC;
-        border-left: 3px solid;
-        border-left-color: #EBF4EC;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .shows2 span {
-        font-weight: 700;
-        font-family: "Indie+Flower";
-        font-size: 25px;
-    }
-
-    .monkees {
-        color: #EBF4EC;
-        text-align: center;
-        padding-top: 150px;
-        font-size: 40px;
-        font-family: "Indie+Flower";
-        font-weight: 600;
-    }
-
-    /*-----------------------------------------------------------------768px-EVENT*/
-    .background-event {
-        background: url("../images/book/event1.jpg");
-        background-repeat: no-repeat;
-        background-color: #000000;
-        height: 100%;
-        width: 100%;
-        background-size: 100%;
-        background-attachment: fixed;
-    }
-
-    .world {
-        text-align: center;
-        padding-top: 100px;
-    }
-
-    .world img {
-        max-width: 500px;
-        opacity: 0.8;
-    }
-
-    .form {
-        margin: auto;
-        border-radius: 15px;
-        background-color: #B2B2B2;
-        opacity: 0.8;
-        max-width: 400px;
-        font-family: "Indie+Flower";
-        font-weight: 600;
-        font-size: 20px;
-    }
-
-    .space {
-        padding-top: 0px;
-    }
-
-    .form td input,
-    select,
-    textarea {
-        background-color: #B2B2B2;
-        border-color: black;
-        border-radius: 5px;
-        border-top: none;
-        border-bottom: none;
-    }
-
-    .form-table {
-        margin-top: 20px;
-    }
-
-
-    /*----------------------------------------------------------------768px-FOOTER*/
-    footer {}
-
-    .social {
-
-        margin-bottom: 20px;
-    }
-
-    .sociali {
-        text-align: center;
-        color: #BFBFBF;
-        font-size: 30px;
-        text-decoration: none;
-        letter-spacing: 20px;
-    }
-
-    .sociali a i {
-        color: #BFBFBF;
-    }
-
-    .socialc {
-        margin: auto;
-        font-size: 12px;
-        letter-spacing: normal;
-        padding-top: 70px;
+    to {
+        height: 70px;
     }
 }
+
+/*-------------------------------------------------------------------ANIMATION*/
