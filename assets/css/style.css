@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
 
-/*----------------------------------------------------------------------HEADER*/
+/*                                                   Start of HEADER styles   */
 
 header {
-    background-color: black;
-}
-
-body {
     background-color: black;
 }
 
@@ -15,8 +11,10 @@ body {
 }
 
 .container-fluid {
-    padding: 0px;
+    padding: 0rem;
 }
+
+/**********animation of navigation bar background**********/
 
 .menucontainer {
     animation-name: growing;
@@ -27,55 +25,6 @@ body {
     animation-direction: normal;
     background-color: black;
     text-align: center;
-    font-family: "Indie+Flower";
-}
-
-.menucontainer a {
-    width: 100%;
-    text-decoration: none;
-    color: #BFBFBF;
-    height: 0px;
-}
-
-.menucontainer a i {
-    padding-top: 0px;
-    color: #BFBFBF;
-    font-size: 28px;
-}
-
-.menucontainer a span {
-    display: block;
-    width: 100%;
-    padding-top: 0px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-.navigation {
-
-    position: fixed;
-    width: 100%;
-    z-index: 99;
-    opacity: 0.8;
-}
-
-.logo {
-    margin-top: 15px;
-    margin-left: 5px;
-    height: 40px;
-}
-
-.logo-img {
-    animation-name: growing;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    background-color: black;
 }
 
 .menuitem {
@@ -87,20 +36,56 @@ body {
     animation-direction: normal;
     background-color: black;
     text-align: center;
-    font-family: "Indie+Flower";
     display: block;
     width: 100%;
-    padding-top: 0px;
+    padding-top: 0em;
     text-transform: uppercase;
     color: #BFBFBF;
+}
+
+/**********navigation bar**********/
+
+.menucontainer a {
+    width: 100%;
+    text-decoration: none;
+    color: #BFBFBF;
+    height: 0rem;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    opacity: 0.8;
+}
+
+/**********icons**********/
+
+.menucontainer a i {
+    padding-top: 0rem;
+    color: #BFBFBF;
+    font-size: 2rem;
 }
 
 .menuitem i {
     text-align: center;
     text-decoration: none;
-    font-size: 28px;
-    padding-top: 12px;
+    font-size: 2rem;
+    padding-top: 0.8rem;
     color: #BFBFBF;
+}
+
+/**********text**********/
+
+.menucontainer a span {
+    display: block;
+    width: 100%;
+    padding-top: 0rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
 }
 
 .menuitem a {
@@ -110,76 +95,106 @@ body {
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 0px;
+    padding-top: 0;
     text-align: center;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 0.2em;
     color: #BFBFBF;
 }
 
-/*----------------------------------------------------------------------HEADER*/
+/*                                                    End of HEADER styles    */
 
-/*------------------------------------------------------------------------HOME*/
+/*                                                    Start of BODY styles    */     
 
-.background-index {
-    background-image: url("../images/index/band3.jpg");
-    background-repeat: no-repeat;
-    height: 280px;
-    background-size: cover;
+body {
+    background-color: black;
+    font-family: "Indie+Flower";
 }
 
+/*                                                      End of BODY styles    */
+
+/*                                               Start of HOME page styles    */
+
+
+/**********text**********/
+
 .about {
-    padding-top: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .about2 {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .about1 p {
     text-align: center;
     color: #BFBFBF;
-    font-family: "Indie+Flower";
-    font-size: 18px;
-    font-weight: 500;
-    padding-left: 20px;
-    padding-right: 20px;
+
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
-.about1 p span {
+h1 {
     text-align: center;
     color: #88B6E8;
-    font-family: "Indie+Flower";
-    font-size: 25px;
+    font-size: 2em;
     font-weight: 600;
 }
 
-.crue p span {
+.crue h2 {
     text-align: center;
     color: #BFBFBF;
-    font-family: "Indie+Flower";
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
 .crue p {
     text-align: center;
     color: #BFBFBF;
-    font-family: "Indie+Flower";
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 1em;
+}
+
+.appfeature {
+    padding: 6em;
+    text-align: center;
+    color: #BFBFBF;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.appdesc {
+    background-color: #980000;
+    color: #BFBFBF;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.appdesc p {
+    margin: auto;
+}
+
+/**********images**********/
+
+.background-index {
+    background-image: url("../images/index/band3.jpg");
+    background-repeat: no-repeat;
+    height: 20rem;
+    background-size: cover;
 }
 
 .band {
-    padding-top: 100px;
     text-align: center;
+    padding-top: 7em;
 }
 
 .bandimg {
@@ -187,7 +202,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 200px;
+    height: 13rem;
     margin: auto;
 }
 
@@ -196,45 +211,24 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
-    margin-top: 20px;
+    height: 20rem;
+    margin-top: 3em;
 }
+
+/**********red bar with links for apps**********/
 
 .apps {
-    margin-top: 60px;
+    margin-top: 6rem;
     background-color: #980000;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 1em;
     text-align: center;
 }
 
-.appfeature {
+/*                                                  End of HOME page styles   */
 
-    padding-top: 60px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: #BFBFBF;
-    font-family: "Indie+Flower";
-    font-size: 18px;
-    font-weight: 500;
-}
+/*                                             Start of GALLERY page styles   */
 
-.appdesc {
-    background-color: #980000;
-    color: #BFBFBF;
-    font-family: "Indie+Flower";
-    font-size: 18px;
-    line-height: 20px;
-    margin: auto;
-}
-
-.appdesc p {
-    margin: auto;
-}
-
-/*------------------------------------------------------------------------HOME*/
-
-/*---------------------------------------------------------------------GALLERY*/
+/**********images**********/
 
 .background-gallery {
     background: url("../images/gallery/gallery.jpg");
@@ -246,36 +240,34 @@ body {
     background-attachment: fixed;
 }
 
-.members p {
-    text-align: center;
-    font-family: "Indie+Flower";
-    font-size: 23px;
-    font-weight: 700;
-    color: white;
-    margin-top: 20px;
-}
-
-.members {
-    text-align: center;
-    padding-top: 150px;
-}
-
 .img-bg {
     text-align: center;
 }
 
 .img-bg img {
-    width: 350px;
+    width: 25em;
 }
 
 .photo {
-    padding-top: 20px;
-    width: 100%;
+    padding: 1em 0em;
 }
 
-/*---------------------------------------------------------------------GALLERY*/
+/**********text**********/
 
-/*----------------------------------------------------------------------TRACKS*/
+.members {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    margin-top: 0em;
+    padding-top: 7em;
+}
+
+/*                                               End of GALLERY page styles   */
+
+/*                                              Start of TRACKS page styles   */
+
+/**********images**********/
 
 .background-media {
     background: url("../images/media/tracks1.jpg");
@@ -290,25 +282,35 @@ body {
 .album {
     text-align: center;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 7em;
     color: black;
 }
 
 .album img {
-    border-radius: 50px;
-    width: 350px;
+    border-radius: 2em;
+    width: 22em;
 }
 
-.album audio {
-    width: 350px;
-    height: 40px;
-}
+/**********text**********/
 
 .tracks p {
-    font-family: "Indie+Flower";
     font-weight: 500;
-    font-size: 36px;
+    font-size: 2em;
     color: white;
+}
+
+.videodesc p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.videodesc span {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
 }
 
 .tracks audio {
@@ -316,40 +318,29 @@ body {
     position: relative;
 }
 
-.video {
-    padding-top: 40px;
-    text-align: center;
-}
-
-.video video {
-    border-radius: 20px;
-    width: 80%;
-}
-
-.videodesc p {
-    text-align: center;
-    color: white;
-    font-family: "Indie+Flower";
-    font-weight: 600;
-    font-size: 30px;
-}
-
-.videodesc span {
-    text-align: center;
-    color: white;
-    font-family: "Indie+Flower";
-    font-weight: 600;
-    font-size: 17px;
-}
-
 .viddesc {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 1em;
 }
 
-/*----------------------------------------------------------------------TRACKS*/
+/**********media players**********/
 
-/*-----------------------------------------------------------------------SHOWS*/
+.album audio {
+    width: 22em;
+    height: 2em;
+}
+
+video {
+    padding: 2em;
+    margin: auto;
+    border-radius: 4em;
+    width: 100%;
+}
+
+/*                                               End of TRACKS page styles    */
+
+/*                                              Start of SHOWS page styles    */
+
+/**********images**********/
 
 .background-shows {
     background: url("../images/shows/showsbg.jpg");
@@ -366,7 +357,7 @@ body {
     background-image: url("../images/shows/newzeland.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 20em;
 }
 
 .shows-au {
@@ -374,7 +365,7 @@ body {
     background-image: url("../images/shows/australia.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 20em;
 }
 
 .shows-usa {
@@ -382,47 +373,47 @@ body {
     background-image: url("../images/shows/usa.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 20em;
 }
+
+/**********text**********/
 
 .shows2 {
     text-align: center;
     color: #EBF4EC;
-    border-left: 3px solid;
+    border-left: 0.2em solid;
     border-left-color: #EBF4EC;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-top: 0px;
+    margin: 0em;
+    padding-top: 0em;
 }
 
 .shows2 span {
     font-weight: 700;
-    font-family: "Indie+Flower";
-    font-size: 25px;
+    font-size: 2em;
     text-align: center;
 }
 
 .monkees {
     color: #EBF4EC;
     text-align: center;
-    padding-top: 140px;
-    font-size: 40px;
-    font-family: "Indie+Flower";
+    padding-top: 3em;
+    font-size: 2.5em;
     font-weight: 600;
 }
 
 .monkees1 {
     color: #EBF4EC;
     text-align: center;
-    padding-top: 20px;
-    font-size: 40px;
-    font-family: "Indie+Flower";
+    padding-top: 1em;
+    font-size: 2.5em;
     font-weight: 600;
 }
 
-/*-----------------------------------------------------------------------SHOWS*/
+/*                                                 End of SHOWS page styles   */
 
-/*------------------------------------------------------------------------BOOK*/
+/*                                                Start of BOOK page styles   */
+
+/**********images**********/
 
 .background-event {
     background: url("../images/book/eventblur.jpg");
@@ -435,18 +426,34 @@ body {
 }
 
 .world {
-    padding-top: 150px;
-    padding-bottom: 20px;
+    padding-top: 6em;
+    padding-bottom: 2em;
     text-align: center;
 }
 
 .world img {
-    height: 150px;
+    height: 12em;
     opacity: 0.8;
 }
 
+/**********form**********/
+
+.form {
+    border-radius: 1em;
+    max-width: 22em;
+    margin: auto;
+    background-color: #C1C1C0;
+    margin-bottom: 3rem;
+}
+
+.rows {
+    padding-top: 0.5em;
+}
+
+/**********text**********/
+
 .aplication input {
-    width: 220px;
+    width: 14em;
 }
 
 .check {
@@ -454,58 +461,43 @@ body {
 }
 
 .labels {
-    font-size: 15px;
-    font-family: "Indie+Flower";
+    font-size: 1em;
     font-weight: 600;
-    border-left: 5px solid transparent;
-}
-
-.labels input {
-    width: 20px;
+    border-left: 0.5em solid transparent;
+    margin-top: 0.2em;
 }
 
 .venuetype {
-    font-size: 15px;
-    font-family: "Indie+Flower";
+    font-size: 1em;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
 }
 
+/**********submit button**********/
+
 .submit {
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 1em;
 }
 
-.form {
-    border-radius: 5px;
-    max-width: 350px;
-    margin: auto;
-    background-color: #C1C1C0;
-}
 
-.form row {
-    padding-top: 10px;
-}
 
-.rows {
-    padding-top: 10px;
-}
+/*                                                  End of BOOK page styles   */
 
-/*------------------------------------------------------------------------BOOK*/
-
-/*----------------------------------------------------------------------FOOTER*/
+/*                                              Start of FOOTER page styles   */
 
 footer {
     background-color: black;
 }
 
+/**********social icons**********/
+
 .sociali {
     margin-top: auto;
     text-align: center;
     color: #BFBFBF;
-    font-size: 30px;
+    font-size: 2em;
     text-decoration: none;
 }
 
@@ -513,25 +505,29 @@ footer {
     color: #BFBFBF;
 }
 
+/**********text**********/
+
 .socialc {
     margin: auto;
-    font-size: 12px;
+    font-size: 1rem;
     letter-spacing: normal;
-    padding-bottom: 10px;
+    padding-bottom: 0.5em;
     color: #BFBFBF;
 }
 
-/*----------------------------------------------------------------------FOOTER*/
+/*                                                End of FOOTER page styles   */
 
-/*-------------------------------------------------------------------ANIMATION*/
+/*                                              Start of FOOTER page styles   */
+
+/**********animation of navigation bar background**********/
 
 @keyframes growing {
     from {
         height: 0;
     }
     to {
-        height: 70px;
+        height: 4.4em;
     }
 }
 
-/*-------------------------------------------------------------------ANIMATION*/
+/*                                               End of ANIMATION page styles */
