@@ -43,6 +43,65 @@ header {
     color: #BFBFBF;
 }
 
+/**********backgrounds**********/
+
+/*HOME*/
+
+.background-index {
+    background-image: url("../images/index/band3.jpg");
+    background-repeat: no-repeat;
+    height: 20rem;
+    background-size: cover;
+}
+
+/*GALLERY*/
+
+.background-gallery {
+    background: url("../images/gallery/gallery.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/*TRACKS*/
+
+.background-media {
+    background: url("../images/media/tracks1.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/*SHOWS*/
+
+.background-shows {
+    background: url("../images/shows/showsbg.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/*BOOK*/
+
+.background-event {
+    background: url("../images/book/eventblur.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 /**********navigation bar**********/
 
 .menucontainer a {
@@ -142,20 +201,6 @@ body {
     padding-right: 2em;
 }
 
-h1 {
-    text-align: center;
-    color: #88B6E8;
-    font-size: 2em;
-    font-weight: 600;
-}
-
-.crue h2 {
-    text-align: center;
-    color: #BFBFBF;
-    font-size: 1.4rem;
-    font-weight: 700;
-}
-
 .crue p {
     text-align: center;
     color: #BFBFBF;
@@ -184,13 +229,6 @@ h1 {
 }
 
 /**********images**********/
-
-.background-index {
-    background-image: url("../images/index/band3.jpg");
-    background-repeat: no-repeat;
-    height: 20rem;
-    background-size: cover;
-}
 
 .band {
     text-align: center;
@@ -230,16 +268,6 @@ h1 {
 
 /**********images**********/
 
-.background-gallery {
-    background: url("../images/gallery/gallery.jpg");
-    background-repeat: no-repeat;
-    background-color: #000000;
-    height: 100%;
-    width: 100%;
-    background-size: 100%;
-    background-attachment: fixed;
-}
-
 .img-bg {
     text-align: center;
 }
@@ -269,21 +297,28 @@ h1 {
 
 /**********images**********/
 
-.background-media {
-    background: url("../images/media/tracks1.jpg");
-    background-repeat: no-repeat;
-    background-color: #000000;
-    height: 100%;
-    width: 100%;
-    background-size: 100%;
-    background-attachment: fixed;
-}
-
 .album {
     text-align: center;
     width: 100%;
-    padding-top: 7em;
+    padding-top: 4em;
     color: black;
+}
+
+.album-first {
+    padding-top: 10em;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.album-first img {
+    border-radius: 2em;
+    width: 22em;
+}
+
+.album-first audio {
+    width: 22em;
+    height: 2em;
 }
 
 .album img {
@@ -292,12 +327,6 @@ h1 {
 }
 
 /**********text**********/
-
-.tracks p {
-    font-weight: 500;
-    font-size: 2em;
-    color: white;
-}
 
 .videodesc p {
     text-align: center;
@@ -341,16 +370,6 @@ video {
 /*                                              Start of SHOWS page styles    */
 
 /**********images**********/
-
-.background-shows {
-    background: url("../images/shows/showsbg.jpg");
-    background-repeat: no-repeat;
-    background-color: #000000;
-    height: 100%;
-    width: 100%;
-    background-size: 100%;
-    background-attachment: fixed;
-}
 
 .shows-nz {
     background-position: center;
@@ -414,16 +433,6 @@ video {
 /*                                                Start of BOOK page styles   */
 
 /**********images**********/
-
-.background-event {
-    background: url("../images/book/eventblur.jpg");
-    background-repeat: no-repeat;
-    background-color: #000000;
-    height: 100%;
-    width: 100%;
-    background-size: 100%;
-    background-attachment: fixed;
-}
 
 .world {
     padding-top: 6em;
@@ -530,4 +539,34 @@ footer {
     }
 }
 
-/*                                               End of ANIMATION page styles */
+/*                                             End of ANIMATION page styles   */
+
+/*                                    Start of h1,h2,h3,h6 elements styles    */
+
+h1 {
+    text-align: center;
+    color: #88B6E8;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    color: #BFBFBF;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+}
+
+h6 {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*                                       End of h1,h2,h3,h6 elements styles   */

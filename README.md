@@ -62,9 +62,54 @@ Desktop and Mobile compatybility on:
 - [x] Opera
 - [x] Firefox
 
-Validation:
+### Validation
 - [x] CSS Validation Tool
+
+No ERRORS found
 - [x] HTML validation Tool
+
+ERRORS found:
+
+HOME page:
+- Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.
+ (helps search engines return language specific results)
+- Warning: Section lacks heading. Consider using h1-h2 elements to add identifying headings to all sections.
+ (heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading)
+- Error: Element div without attribute label must not be empty.
+- Error: Bad value 100px for attribute width on element img: Expected a digit but saw p instead.
+ (HTML5 supports only px as default)
+
+GALLERY page:
+- 10x Error: An img element must have an alt attribute, except under certain conditions. 
+ (alt attribute is used in HTML documents to specify alternative text that is to be rendered when the element to which it is applied cannot be rendered)
+- 10x Error: Bad value 100px for attribute width on element img: Expected a digit but saw p instead.
+- Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+  (heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading)
+- Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.
+ (helps search engines return language specific results)
+
+TRACKS page:
+- Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.
+ (helps search engines return language specific results)
+- Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+  (heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading)
+- Error: Bad value 100px for attribute width on element img: Expected a digit but saw p instead.
+ (HTML5 supports only px as default)
+
+SHOWS page:
+- Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+ (heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading)
+- Error: Bad value 100px for attribute width on element img: Expected a digit but saw p instead.
+- Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.
+ (helps search engines return language specific results)
+
+BOOK page:
+- Error: Element option without attribute label must not be empty.
+- Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+  (heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading)
+- Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.
+ (helps search engines return language specific results)
+
 
 Form:
 - [x] Submit the empty form and verify that an error
@@ -83,6 +128,10 @@ Form:
 
 ## Software used creating this project:
 
+Wireframe created on Balsamiq:
+
+![](https://media.balsamiq.com/files/company/balsamiq-logo-print.png)
+
 The bands logo was custom made by me using Corel Draw:
 
 ![](http://global.ingrammicrocloud.com/uk/wp-content/uploads/sites/22/2018/02/app-icon-cdgs.png)
@@ -94,6 +143,7 @@ All photos and backgrounds ware edited using Corel Photo-Paint:
 ## Supporting sources :
 
 - Code Institute Training Materials
+- Slack
 - YouTube Tutorials
 - Several Coding Forums
 - Wikipedia
@@ -102,8 +152,7 @@ All photos and backgrounds ware edited using Corel Photo-Paint:
 ## Project Check List
 
 - [x] Readme File
-
-
+- [x] Wireframe
 
 Desktop 100% Finished
 - [x] Home Page
@@ -121,7 +170,29 @@ Mobile 100% Finished
 
 ## Viewing Instruction
 
- [Click To View My Page](https://rafaljanos.github.io/the-monkees/)
+ [Click To View "Wireframe"](https://balsamiq.cloud/s20a0gj/pek4zod)
+ 
+ [Click To View "The Monkees" Web Page](https://rafaljanos.github.io/the-monkees/)
+ 
+## First Submission Results
+
+FAIL receiving 51% (minimum required to PASS is 65%)
+- Reasons
+ 
+
+Project purpose 
+
+UX Design 
+
+Missing deployment write-up
+
+font-family in every single text style instead of being specifyed in BODY
+
+Used "px" instead of (rem/em) for sizes
+
+No test results and outcome description
+
+Missing comments in CSS files
 
 ## Author
 
