@@ -305,7 +305,7 @@ body {
 }
 
 .album-first {
-    padding-top: 10em;
+    padding-top: 6em;
     text-align: center;
     width: 100%;
     color: black;
@@ -435,9 +435,7 @@ video {
 /**********images**********/
 
 .world {
-    padding-top: 6em;
-    padding-bottom: 2em;
-    text-align: center;
+    padding-top: 9em;
 }
 
 .world img {
@@ -570,3 +568,92 @@ h6 {
 }
 
 /*                                       End of h1,h2,h3,h6 elements styles   */
+
+
+
+
+/*       HAMBURGER         */
+
+.bg-light {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    opacity: 0.8;
+    background-color: black !important;
+    
+}
+
+.navbar-light .navbar-brand {
+    color: #BFBFBF;
+}
+
+.navbar-light .navbar-brand i{
+    font-size: 2em;
+    text-align: center;
+}
+
+.navbar-nav i {
+    padding-top: 0.5rem;
+    display: block;
+    color: #BFBFBF;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+.navbar-nav span {
+    color: #BFBFBF;
+    margin-bottom: 3em;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+
+.hamburger {
+    text-transform: uppercase;
+}
+
+.hamburger a {
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background-color: #BFBFBF;
+}
+
+.nav-row {
+    margin-left: -1em;
+}
+
+.navbar-nav {
+    width: 100%;
+}   
+
+
+@media (max-width: 992px) {
+.navbar-nav i {
+    display: none;
+}
+
+.navbar-nav span {
+    text-align: right;
+    font-size: 1.2em;
+    margin-left: -0.8em;
+}
+
+.bg-light {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    opacity: 0.8;
+    background-color: transparent !important;
+    
+}
+
+.navbar-light .navbar-brand {
+    color: grey;
+}
+
+.navbar-toggler {
+    background-color: gray;
+}
+}

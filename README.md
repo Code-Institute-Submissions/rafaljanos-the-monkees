@@ -119,7 +119,7 @@ Form:
 - [x] Submit the form with all inputs valid and verify 
       that a success message appears
 
-## Focuseed on:
+## Focussed on:
 
 - Mobile approach
 - Maximum  of 5 pages
