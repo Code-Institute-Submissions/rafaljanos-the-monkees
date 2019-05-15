@@ -14,34 +14,80 @@ header {
     padding: 0rem;
 }
 
-/**********animation of navigation bar background**********/
+/*                                           Start of NAVIGATION BAR styles   */
 
-.menucontainer {
-    animation-name: growing;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    background-color: black;
-    text-align: center;
+.bg-light {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    opacity: 0.8;
+    background-color: black !important;
 }
 
-.menuitem {
-    animation-name: growing;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    background-color: black;
-    text-align: center;
-    display: block;
+.navbar-nav {
     width: 100%;
-    padding-top: 0em;
-    text-transform: uppercase;
+}   
+
+/**********colour**********/
+
+.navbar-light .navbar-brand {
     color: #BFBFBF;
 }
+
+/**********icons**********/
+
+.navbar-light .navbar-brand i{
+    font-size: 2em;
+    text-align: center;
+}
+
+.navbar-light i {
+    padding-top: 0.5rem;
+    display: block;
+    color: #BFBFBF;
+    font-size: 3em;
+    text-align: center;
+}
+
+.navbar-nav i {
+    padding-top: 0.5rem;
+    display: block;
+    color: #BFBFBF;
+    font-size: 2em;
+    text-align: center;
+}
+
+/**********links**********/
+
+.navbar-light a {
+    text-decoration: none;
+}
+
+.hamburger a {
+    text-decoration: none;
+}
+
+/**********text**********/
+
+.navbar-nav span {
+    color: #BFBFBF;
+    margin-bottom: 3em;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+
+.hamburger {
+    text-transform: uppercase;
+}
+
+/**********background**********/
+
+.navbar-toggler {
+    background-color: #BFBFBF;
+    font-size: 0.8em;
+}
+
+/*                                            End of NAVIGATION BAR styles    */
 
 /**********backgrounds**********/
 
@@ -102,66 +148,6 @@ header {
     background-attachment: fixed;
 }
 
-/**********navigation bar**********/
-
-.menucontainer a {
-    width: 100%;
-    text-decoration: none;
-    color: #BFBFBF;
-    height: 0rem;
-}
-
-.navigation {
-    position: fixed;
-    width: 100%;
-    z-index: 99;
-    opacity: 0.8;
-}
-
-/**********icons**********/
-
-.menucontainer a i {
-    padding-top: 0rem;
-    color: #BFBFBF;
-    font-size: 2rem;
-}
-
-.menuitem i {
-    text-align: center;
-    text-decoration: none;
-    font-size: 2rem;
-    padding-top: 0.8rem;
-    color: #BFBFBF;
-}
-
-/**********text**********/
-
-.menucontainer a span {
-    display: block;
-    width: 100%;
-    padding-top: 0rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.2em;
-}
-
-.menuitem a {
-    text-decoration: none;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 0;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.2em;
-    color: #BFBFBF;
-}
 
 /*                                                    End of HEADER styles    */
 
@@ -175,7 +161,6 @@ body {
 /*                                                      End of BODY styles    */
 
 /*                                               Start of HOME page styles    */
-
 
 /**********text**********/
 
@@ -194,7 +179,6 @@ body {
 .about1 p {
     text-align: center;
     color: #BFBFBF;
-
     font-size: 1rem;
     font-weight: 600;
     padding-left: 2em;
@@ -436,6 +420,7 @@ video {
 
 .world {
     padding-top: 9em;
+    padding-bottom: 9em;
 }
 
 .world img {
@@ -450,7 +435,7 @@ video {
     max-width: 22em;
     margin: auto;
     background-color: #C1C1C0;
-    margin-bottom: 3rem;
+    margin-bottom: 3em;
 }
 
 .rows {
@@ -504,7 +489,7 @@ footer {
     margin-top: auto;
     text-align: center;
     color: #BFBFBF;
-    font-size: 2em;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
@@ -561,6 +546,11 @@ h3 {
     color: white;
 }
 
+h4 {
+    font-size: 1em;    
+    font-weight: 600;
+}
+
 h6 {
     font-weight: 600;
     text-align: center;
@@ -569,70 +559,23 @@ h6 {
 
 /*                                       End of h1,h2,h3,h6 elements styles   */
 
-
-
-
-/*       HAMBURGER         */
-
-.bg-light {
-    position: fixed;
-    width: 100%;
-    z-index: 99;
-    opacity: 0.8;
-    background-color: black !important;
-    
-}
-
-.navbar-light .navbar-brand {
-    color: #BFBFBF;
-}
-
-.navbar-light .navbar-brand i{
-    font-size: 2em;
-    text-align: center;
-}
-
-.navbar-nav i {
-    padding-top: 0.5rem;
-    display: block;
-    color: #BFBFBF;
-    font-size: 2em;
-    text-align: center;
-    
-}
-
-.navbar-nav span {
-    color: #BFBFBF;
-    margin-bottom: 3em;
-    letter-spacing: 0.2rem;
-    font-weight: 600;
-}
-
-.hamburger {
-    text-transform: uppercase;
-}
-
-.hamburger a {
-    text-decoration: none;
-}
-
-.navbar-toggler {
-    background-color: #BFBFBF;
-}
-
-.nav-row {
-    margin-left: -1em;
-}
-
-.navbar-nav {
-    width: 100%;
-}   
+/*                                            Start of MEDIA QUERIES styles   */
 
 
 @media (max-width: 992px) {
+    
+/**********icons**********/
+    
 .navbar-nav i {
     display: none;
 }
+
+.navbar-light i {
+    font-size: 2em;
+    padding-top: 0rem;
+}
+
+/**********text**********/
 
 .navbar-nav span {
     text-align: right;
@@ -640,20 +583,14 @@ h6 {
     margin-left: -0.8em;
 }
 
+/**********background**********/
+
 .bg-light {
     position: fixed;
     width: 100%;
     z-index: 99;
     opacity: 0.8;
-    background-color: transparent !important;
-    
+}
 }
 
-.navbar-light .navbar-brand {
-    color: grey;
-}
-
-.navbar-toggler {
-    background-color: gray;
-}
-}
+/*                                              End of MEDIA QUERIES styles   */
