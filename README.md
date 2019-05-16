@@ -1,14 +1,43 @@
-# My First Milestone project "The Monkees"
+# "The Monkees" Web page
 
-This Website is made for a Rock Band called "The Monkees" 
-originally active between 1966 and 1971, 
-with reunion albums and tours in the decades that followed.
-They were formed in Los Angeles in 1965 by Bob Rafelson and
-Bert Schneider specifically for the American television 
-series The Monkees, which aired from 1966 to 1968. The 
-musical acting quartet was composed of Americans Micky Dolenz
-, Michael Nesmith, and Peter Tork; and the English actor and 
-singer Davy Jones.
+Milestone Project: User-Centric Frontend Development - Code Institute
+
+This is a website for a rock band called "The Monkees".
+It introduce all the band`s members, some of them tracks, photos and video clip.
+It also gives a user opportunity to download either Android or iOS app for their mobile device to access latest news and information.
+They can also find information regarding tours and concerts a swell as contact them throe a form.
+
+## Demo
+A live demo can be found [here](https://rafaljanos.github.io/the-monkees/).
+
+![demo](https://user-images.githubusercontent.com/47479588/57892232-1c4ebc80-7836-11e9-860d-2851e1bda3d3.jpg)
+
+## UX
+
+My aim in the design was to easy access and navigate to desired information on the site. 
+
+For users, I was aiming to outline general information about the bands history its members. On the home page I gave users opportunity to download mobile app to have acces to latest news and informatio if they like.
+There is a gallery page to give them a glimps of how the band looked when they started and also how they look now. They can find tracks and video clip to check out their music.
+And for those who wish to see them live a page with upcomming concerts and gigs which include addresses and dates. And on the last page I`m giving users chance to contact bands management team if they wish to organise a gig.
+From every page there is an access to bands Tweeter, Facebook and YouTube account.
+
+## Technologies
+
+1.HTML
+
+2.CSS
+
+3.Bootstrap (4.3.1)
+
+## Features
+
+This site uses Bootstrap Grid system.
+Navigation bar is fixed and stays on top of the screen, it uses Bootstrap font-awesome. Navbar also stays collapsed in mobile view to free some room for content.
+
+## Features Left to Implement
+
+In the future, I am planning to add more photos and links to external sources for more music, track and video clips. I wish also to add google maps for each concert address for easy gps navigation.
+Add slide shows to gallery and animated background to home page. 
 
 ## This Website was build on:
 
