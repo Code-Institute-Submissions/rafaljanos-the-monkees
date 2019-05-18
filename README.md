@@ -178,7 +178,9 @@ All content in "Shows" page was taken from [Songkick](https://www.songkick.com/a
 
 #### Media
 
-Few photos and a video clip were provided by Code Institute and the rest was taken from [monkees.net](https://www.monkees.net/category/photos/) website.
+Bands photos and a video clip were provided by Code Institute and the rest was taken from [monkees.net](https://www.monkees.net/category/photos/) website.
+
+All the background images and also "SHOWS" page images were taken from Google search images. 
 
 #### Acknowledgements
 
