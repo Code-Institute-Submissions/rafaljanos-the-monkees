@@ -22,9 +22,9 @@ A live demo can be found [here](https://rafaljanos.github.io/the-monkees/).
 
 My aim in the design was to easy access and navigate to desired information on the site. 
 
-For users, I was aiming to outline general information about the bands history its members. On the home page I gave users opportunity to download mobile app to have acces to latest news and informatio if they like.
-There is a gallery page to give them a glimps of how the band looked when they started and also how they look now. They can find tracks and video clip to check out their music.
-And for those who wish to see them live a page with upcomming concerts and gigs which include addresses and dates. And on the last page I`m giving users chance to contact bands management team if they wish to organise a gig.
+For users, I was aiming to outline general information about the bands history its members. On the home page I gave users opportunity to download mobile app to have access to latest news and information if they like.
+There is a gallery page to give them a glimpse of how the band looked when they started and also how they look now. They can find tracks and video clip to check out their music.
+And for those who wish to see them live a page with upcoming concerts and gigs which include addresses and dates. And on the last page I`m giving users chance to contact bands management team if they wish to organize a gig.
 From every page there is an access to bands Tweeter, Facebook and YouTube account.
 
 ## Technologies
@@ -66,7 +66,7 @@ collapsed in mobile view to free some room for content.
 ## Features Left to Implement
 
 In the future, I am planning to add more photos and links to external sources for more music, track and video clips. 
-I wish also to add google maps for each concert address for easy gps navigation.
+I wish also to add Google maps for each concert address for easy gps navigation.
 Add slide shows to gallery and animated background to home page. 
 
 ## Supporting sources :
@@ -80,33 +80,33 @@ Add slide shows to gallery and animated background to home page.
 
 ## Testing
 
-The home page achived the intendend outcome by providing the user with short intruduction of the band and also 
+The home page achieved the intended outcome by providing the user with short introduction of the band and also 
 quick access to a download site with the original band`s app.
 All of the pages give user quick and easy access to band social media accounts like Facebook, Tweeter and 
-Youtube channel via Font Awesome inons. User can also get the excact time, date and place of any upcoming 
+Youtube channel via Font Awesome icons. User can also get the exact time, date and place of any upcoming 
 venues this year. On the mobile view navbar is collapsed and let the user to navigate throe all websites 
 quickly and without compromising on content that fits on their screens.
 
 If you try to submit the contact form with an invalid email address, there will be an error noting the 
 invalid email address. There is also the "required" attribute added to all fields, so in case one of them 
-is skipped the form will not subit.
+is skipped the form will not submit.
 Only when all the fields will have a correct content, the form will go through.
 
 All provided links will open in a new tab using "target=_blank" attribute. They all have been manually 
 tested to ensure they all go to the correct destination.
 
-All the navbar Font Awesome icons are in the same position across all pages, they all grow on hoower by using "hvr-grow-shadow" class.
+All the navbar Font Awesome icons are in the same position across all pages, they all grow on hover by using "hvr-grow-shadow" class.
 Navbar in mobile view will turn in to a hamburger menu at screen resolution smaller than 992px  using a "@media" media queries. 
-And will stay the same across all pages, all pages links will also grow on hoover like on big screen but will have no Font Awesome 
-icons with them to minimise taken space. All navbars links are in the same order on a big screen and small screen colapsed bar.
+And will stay the same across all pages, all pages links will also grow on hover like on big screen but will have no Font Awesome 
+icons with them to minimise taken space. All navbars links are in the same order on a big screen and small screen collapsed bar.
 
 This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on 
 multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. 
 
-During the testing phase I came across several errors and wornings on each page:
+During the testing phase I came across several errors and warnings on each page:
 
 ##### HOME page:
-- Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.
+- Warning: Consider adding a Lang attribute to the html start tag to declare the language of this document.
  (helps search engines return language specific results)
 - Warning: Section lacks heading. Consider using h1-h2 elements to add identifying headings to all sections.
  (heading element implies all the font changes, paragraph breaks before and after, and any white space necessary to render the heading)
@@ -182,7 +182,7 @@ Few photos and a video clip were provided by Code Institute and the rest was tak
 
 #### Acknowledgements
 
-The hamburger navigation bar was found and customised through [MDB](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/) website.
+The hamburger navigation bar was found and customized through [MDB](https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/) website.
 
 #### This is for educational use.
 
