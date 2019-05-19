@@ -16,6 +16,8 @@ header {
 
 /*                                           Start of NAVIGATION BAR styles   */
 
+/**********background**********/
+
 .bg-light {
     position: fixed;
     width: 100%;
@@ -34,7 +36,7 @@ header {
     color: #BFBFBF;
 }
 
-/**********icons**********/
+/**********font awesome**********/
 
 .navbar-light .navbar-brand i{
     font-size: 2em;
@@ -89,7 +91,7 @@ header {
 
 /*                                            End of NAVIGATION BAR styles    */
 
-/**********backgrounds**********/
+/**********background images**********/
 
 /*HOME*/
 
@@ -153,6 +155,8 @@ header {
 
 /*                                                    Start of BODY styles    */     
 
+/**********background colour**********/
+
 body {
     background-color: black;
     font-family: "Indie+Flower";
@@ -168,7 +172,7 @@ body {
 
 /*                                               Start of HOME page styles    */
 
-/**********text**********/
+/**********about the band**********/
 
 .about {
     padding-top: 2em;
@@ -176,11 +180,6 @@ body {
     padding-right: 2em;
 }
 
-.about2 {
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-}
 
 .about1 p {
     text-align: center;
@@ -191,12 +190,28 @@ body {
     padding-right: 2em;
 }
 
+/**********dates and places of birth**********/
+
+.about2 {
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .crue p {
     text-align: center;
     color: #BFBFBF;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1em;
+}
+
+
+
+/**********app description**********/
+
+.appdesc p {
+    margin: auto;
 }
 
 .appfeature {
@@ -214,16 +229,14 @@ body {
     margin: auto;
 }
 
-.appdesc p {
-    margin: auto;
-}
-
-/**********images**********/
+/**********bands logo image**********/
 
 .band {
     text-align: center;
     padding-top: 7em;
 }
+
+/**********image of band playing**********/
 
 .bandimg {
     background-image: url("../images/index/themonkees.jpg");
@@ -233,6 +246,8 @@ body {
     height: 13rem;
     margin: auto;
 }
+
+/**********grey scale image of the band**********/
 
 .crueimg {
     background-image: url("../images/index/indexband1.jpg");
@@ -256,7 +271,7 @@ body {
 
 /*                                             Start of GALLERY page styles   */
 
-/**********images**********/
+/**********2 rows of images**********/
 
 .img-bg {
     text-align: center;
@@ -270,13 +285,10 @@ body {
     padding: 1em 0em;
 }
 
-/**********text**********/
+/**********members faces**********/
 
 .members {
     text-align: center;
-    font-size: 1.5em;
-    font-weight: 700;
-    color: white;
     margin-top: 0em;
     padding-top: 7em;
 }
@@ -285,7 +297,7 @@ body {
 
 /*                                              Start of TRACKS page styles   */
 
-/**********images**********/
+/**********divs**********/
 
 .album {
     text-align: center;
@@ -296,27 +308,37 @@ body {
 
 .album-first {
     padding-top: 6em;
-    text-align: center;
-    width: 100%;
-    color: black;
 }
 
-.album-first img {
-    border-radius: 2em;
-    width: 22em;
-}
-
-.album-first audio {
-    width: 22em;
-    height: 2em;
-}
+/**********album cover images**********/
 
 .album img {
     border-radius: 2em;
     width: 22em;
 }
 
-/**********text**********/
+/**********audio players**********/
+
+.album audio {
+    width: 22em;
+    height: 2em;
+}
+
+/**********video player**********/
+
+video {
+    padding: 2em;
+    margin: auto;
+    border-radius: 4em;
+    width: 100%;
+}
+
+/**********video description text**********/
+
+
+.viddesc {
+    padding: 1em;
+}
 
 .videodesc p {
     text-align: center;
@@ -332,34 +354,11 @@ body {
     font-size: 1em;
 }
 
-.tracks audio {
-    opacity: 0.5;
-    position: relative;
-}
-
-.viddesc {
-    padding: 1em;
-}
-
-/**********media players**********/
-
-.album audio {
-    width: 22em;
-    height: 2em;
-}
-
-video {
-    padding: 2em;
-    margin: auto;
-    border-radius: 4em;
-    width: 100%;
-}
-
 /*                                               End of TRACKS page styles    */
 
 /*                                              Start of SHOWS page styles    */
 
-/**********images**********/
+/**********New Zealand image**********/
 
 .shows-nz {
     background-position: center;
@@ -369,6 +368,8 @@ video {
     height: 20em;
 }
 
+/**********Australia image**********/
+
 .shows-au {
     background-position: center center;
     background-image: url("../images/shows/australia.png");
@@ -376,6 +377,8 @@ video {
     background-repeat: no-repeat;
     height: 20em;
 }
+
+/**********USA image**********/
 
 .shows-usa {
     background-position: center;
@@ -396,11 +399,15 @@ video {
     padding-top: 0em;
 }
 
+/**********country name**********/
+
 .shows2 span {
     font-weight: 700;
     font-size: 2em;
     text-align: center;
 }
+
+/**********The Monkees**********/
 
 .monkees {
     color: #EBF4EC;
@@ -409,6 +416,8 @@ video {
     font-size: 2.5em;
     font-weight: 600;
 }
+
+/**********Micky Dolenz**********/
 
 .monkees1 {
     color: #EBF4EC;
@@ -422,50 +431,55 @@ video {
 
 /*                                                Start of BOOK page styles   */
 
-/**********images**********/
+/**********form**********/
 
 .world {
-    padding-top: 9em;
+    padding-top: 7em;
 }
-
-.world img {
-    height: 12em;
-    opacity: 0.8;
-}
-
-/**********form**********/
 
 .form {
     border-radius: 1em;
-    max-width: 32em;
+    max-width: 21rem;
     margin: auto;
     background-color: #C1C1C0;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .rows {
     padding-top: 1.5em;
 }
 
-/**********text**********/
+/**********imput field**********/
 
 .aplication input {
-    width: 14em;
+    max-width: 13em;
+    margin-right: 1em;
 }
 
 .check {
     text-align: center;
 }
 
+/**********imput field description**********/
+
 .labels {
     font-size: 1em;
     font-weight: 600;
-    border-left: 0.5em solid transparent;
+    border-left: 1.2em solid transparent;
     margin-top: 0.2em;
 }
 
-.venuetype {
+/**********type of venue**********/
+
+.labels1 {
     font-size: 1em;
+    font-weight: 600;
+    border-left: 1em solid transparent;
+    margin-top: 0.2em;
+}
+
+
+.venuetype {
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
